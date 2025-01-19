@@ -1,249 +1,128 @@
-import './styles/globals.css';
+import React, { useEffect } from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import AIVisual from './components/AIVisual';
+import Layout from './components/layout/Layout';
+import './styles/animations.css';
 
-function App() {
+function MainPage() {
+  useEffect(() => {
+    document.body.classList.add('loaded');
+  }, []);
+
   return (
-    <div style={{
-      backgroundColor: '#0A0B0F',
-      backgroundImage: 'radial-gradient(circle at 50% 0%, #1A1B23 0%, #0A0B0F 50%)',
-      color: '#FFFFFF',
+    <div className="main-container" style={{
       minHeight: '100vh',
-      overflow: 'hidden',
+      background: 'linear-gradient(130deg, #00040F 60%, #001F3F 100%)',
       position: 'relative',
+      overflow: 'hidden'
     }}>
-      <div style={{
-        position: 'absolute',
-        top: 0,
-        left: 0,
-        right: 0,
-        bottom: 0,
-        background: 'radial-gradient(circle at 50% 50%, rgba(97, 218, 251, 0.1) 0%, transparent 50%)',
-        animation: 'pulse 8s ease-in-out infinite',
-        zIndex: 1,
-      }} />
-
-      <nav style={{
-        display: 'flex',
-        justifyContent: 'space-between',
-        alignItems: 'center',
-        padding: '20px 40px',
-        maxWidth: '1400px',
-        margin: '0 auto',
-        position: 'relative',
-        zIndex: 2,
-        animation: 'fadeInDown 1s ease-out',
-      }}>
-        <div style={{ 
-          fontSize: '24px', 
-          fontWeight: 'bold',
-          display: 'flex',
-          alignItems: 'center',
-          gap: '8px',
-        }}>
-          <span style={{ 
-            color: '#61DAFB',
-            animation: 'glow 2s ease-in-out infinite',
-          }}>KP</span>
-          Portfolio
-        </div>
-        <div style={{
-          display: 'flex',
-          gap: '40px',
-        }}>
-          {['About', 'Projects', 'Skills', 'Contact'].map((item, index) => (
-            <a 
-              key={item}
-              href={`#${item.toLowerCase()}`} 
-              style={{ 
-                color: '#FFFFFF', 
-                textDecoration: 'none',
-                position: 'relative',
-                animation: `fadeInDown 0.5s ease-out forwards`,
-                animationDelay: `${index * 0.1}s`,
-                opacity: 0,
-              }}
-              onMouseEnter={e => {
-                e.target.style.color = '#61DAFB';
-                e.target.style.transform = 'translateY(-2px)';
-              }}
-              onMouseLeave={e => {
-                e.target.style.color = '#FFFFFF';
-                e.target.style.transform = 'translateY(0)';
-              }}
-            >
-              {item}
-            </a>
-          ))}
-        </div>
-      </nav>
-
       <main style={{
         maxWidth: '1400px',
-        margin: '60px auto',
-        padding: '0 40px',
-        display: 'flex',
-        justifyContent: 'space-between',
+        margin: '0 auto',
+        padding: '160px 40px 40px',
+        minHeight: '100vh',
+        display: 'grid',
+        gridTemplateColumns: '1fr 1fr',
+        gap: '40px',
         alignItems: 'center',
-        position: 'relative',
-        zIndex: 2,
       }}>
-        <div style={{ maxWidth: '600px' }}>
-          <div style={{
-            backgroundColor: 'rgba(255, 255, 255, 0.1)',
+        <div className="fade-in-left">
+          <div className="badge" style={{
+            display: 'inline-flex',
+            alignItems: 'center',
+            gap: '8px',
+            background: 'rgba(92, 225, 230, 0.1)',
             padding: '8px 16px',
-            borderRadius: '10px',
-            display: 'inline-block',
-            marginBottom: '24px',
-            backdropFilter: 'blur(5px)',
-            animation: 'fadeInUp 0.5s ease-out',
+            borderRadius: '20px',
+            marginBottom: '24px'
           }}>
-            <span style={{ color: '#FFFFFF' }}>
-              <span style={{ 
-                color: '#61DAFB',
-                animation: 'pulse 2s infinite',
-              }}>⚡ </span>
-              Full Stack Developer
-            </span>
+            <span style={{ color: '#5CE1E6' }}>👨‍💻</span>
+            <span style={{ color: '#FFFFFF' }}>Data Science Intern</span>
           </div>
 
           <h1 style={{
-            fontSize: '72px',
+            fontSize: '64px',
+            marginBottom: '20px',
             lineHeight: '1.1',
-            marginBottom: '24px',
-            fontWeight: 'bold',
-            opacity: 0,
-            animation: 'fadeInUp 0.5s ease-out forwards',
-            animationDelay: '0.2s',
+            fontWeight: 'bold'
           }}>
             The Next
             <br />
             <span style={{ 
-              color: '#61DAFB',
-              display: 'inline-block',
-              animation: 'glow 3s ease-in-out infinite',
+              color: '#5CE1E6',
+              display: 'block' 
             }}>Generation</span>
-            <br />
-            Developer.
+            Data Science.
           </h1>
 
           <p style={{
-            color: '#8F9BA8',
             fontSize: '18px',
-            lineHeight: '1.6',
             marginBottom: '40px',
+            color: 'rgba(255, 255, 255, 0.7)',
             maxWidth: '500px',
-            opacity: 0,
-            animation: 'fadeInUp 0.5s ease-out forwards',
-            animationDelay: '0.4s',
+            lineHeight: '1.6'
           }}>
-            Passionate about creating innovative web solutions and 
-            transforming ideas into reality through clean, efficient code 
-            and modern technologies.
+            Passionate about machine learning, statistical analysis,
+            and data visualization. Focused on extracting
+            meaningful insights from complex datasets.
           </p>
 
           <div style={{
-            width: '140px',
-            height: '140px',
-            border: '1px solid #61DAFB',
-            borderRadius: '50%',
             display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            cursor: 'pointer',
-            transition: 'all 0.3s ease',
-            position: 'relative',
-            opacity: 0,
-            animation: 'fadeInUp 0.5s ease-out forwards',
-            animationDelay: '0.6s',
-          }}
-          onMouseEnter={e => {
-            e.currentTarget.style.transform = 'scale(1.1)';
-            e.currentTarget.style.boxShadow = '0 0 30px rgba(97, 218, 251, 0.3)';
-          }}
-          onMouseLeave={e => {
-            e.currentTarget.style.transform = 'scale(1)';
-            e.currentTarget.style.boxShadow = 'none';
+            gap: '20px'
           }}>
-            <div style={{
-              color: '#61DAFB',
-              textAlign: 'center',
-              fontSize: '18px',
+            <button className="button-primary" style={{
+              padding: '12px 24px',
+              fontSize: '16px',
+              borderRadius: '8px',
+              background: '#5CE1E6',
+              border: 'none',
+              color: '#00040F',
+              cursor: 'pointer',
+              transition: 'all 0.3s ease'
             }}>
-              Let's
-              <br />
-              Connect
-              <span style={{
-                position: 'absolute',
-                right: '20px',
-                top: '50%',
-                transform: 'translateY(-50%)',
-                transition: 'transform 0.3s ease',
-              }}>→</span>
-            </div>
+              View Projects
+            </button>
+            <button className="button-secondary" style={{
+              padding: '12px 24px',
+              fontSize: '16px',
+              borderRadius: '8px',
+              background: 'transparent',
+              border: '1px solid rgba(92, 225, 230, 0.5)',
+              color: '#FFFFFF',
+              cursor: 'pointer',
+              transition: 'all 0.3s ease'
+            }}>
+              See Analysis
+            </button>
           </div>
         </div>
 
-        <div style={{
-          position: 'relative',
-          width: '600px',
-          height: '600px',
-          animation: 'fadeIn 1s ease-out',
-        }}>
-          {[0, 1, 2].map((index) => (
-            <div 
-              key={index} 
-              style={{
-                position: 'absolute',
-                width: '400px',
-                height: '250px',
-                backgroundColor: 'rgba(255, 255, 255, 0.1)',
-                borderRadius: '20px',
-                top: '50%',
-                right: '0',
-                transform: `translateY(-50%) rotate(${-15 + index * 15}deg) translateX(${index * 20}px)`,
-                backdropFilter: 'blur(10px)',
-                border: '1px solid rgba(255, 255, 255, 0.2)',
-                boxShadow: '0 0 30px rgba(97, 218, 251, 0.1)',
-                transition: 'all 0.3s ease',
-                animation: `fadeIn 0.5s ease-out forwards ${0.2 * (index + 1)}s`,
-                opacity: 0,
-              }}
-              onMouseEnter={e => {
-                e.currentTarget.style.transform = `translateY(-52%) rotate(${-15 + index * 15}deg) translateX(${index * 20}px) scale(1.05)`;
-              }}
-              onMouseLeave={e => {
-                e.currentTarget.style.transform = `translateY(-50%) rotate(${-15 + index * 15}deg) translateX(${index * 20}px) scale(1)`;
-              }}
-            >
-              <div style={{ padding: '20px' }}>
-                <h3 style={{ color: '#61DAFB', marginBottom: '10px' }}>Project {index + 1}</h3>
-                <p style={{ color: '#8F9BA8' }}>Web Development • React • Node.js</p>
-              </div>
-            </div>
-          ))}
-
-          {[1, 2, 3].map((index) => (
-            <div 
-              key={`sphere-${index}`} 
-              style={{
-                position: 'absolute',
-                width: `${40 + index * 20}px`,
-                height: `${40 + index * 20}px`,
-                backgroundColor: '#61DAFB',
-                borderRadius: '50%',
-                top: `${20 + index * 30}%`,
-                right: `${20 + index * 20}%`,
-                opacity: 0,
-                boxShadow: '0 0 30px rgba(97, 218, 251, 0.5)',
-                animation: `
-                  float ${2 + index}s infinite ease-in-out,
-                  fadeIn 0.5s ease-out forwards ${0.4 + index * 0.2}s
-                `,
-              }}
-            />
-          ))}
+        <div className="fade-in-right">
+          <AIVisual />
         </div>
       </main>
+
+      <div className="orb top-left"></div>
+      <div className="orb bottom-right"></div>
     </div>
+  );
+}
+
+function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<MainPage />} />
+          {/* Reference to existing routes */}
+          <Route path="/personal/*" />
+          <Route path="/labs/*" />
+          <Route path="/research/*" />
+          <Route path="/contract/*" />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

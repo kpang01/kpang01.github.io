@@ -1,0 +1,148 @@
+.hero-section {
+  background: linear-gradient(144.39deg, #0F1624 -278.56%, #6D6D6D -78.47%, #11101D 91.61%);
+  min-height: 100vh;
+  padding: 6rem 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.discount-badge {
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  border-radius: 50px;
+  padding: 0.5rem 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.icon {
+  color: #00F6FF;
+}
+
+.hero-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.hero-text h1 {
+  font-size: 4.5rem;
+  line-height: 1.1;
+  margin-bottom: 2rem;
+}
+
+.highlight {
+  display: block;
+  color: #00F6FF;
+}
+
+.hero-text p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.125rem;
+  line-height: 1.6;
+  margin-bottom: 3rem;
+  max-width: 470px;
+}
+
+.get-started-btn {
+  background: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%);
+  border: none;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #00040F;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: transform 0.3s ease;
+}
+
+.get-started-btn:hover {
+  transform: translateY(-2px);
+}
+
+.cards-visual {
+  position: relative;
+  height: 600px;
+}
+
+.floating-card {
+  position: absolute;
+  width: 300px;
+  height: 180px;
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease;
+}
+
+.card-1 { transform: translateZ(60px) rotate(-15deg); }
+.card-2 { transform: translateZ(30px) rotate(-5deg); }
+.card-3 { transform: translateZ(0) rotate(5deg); }
+
+.orb {
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(circle, #5CE1E6 0%, rgba(92, 225, 230, 0) 70%);
+  filter: blur(20px);
+}
+
+.orb-1 {
+  width: 150px;
+  height: 150px;
+  top: 10%;
+  right: 20%;
+}
+
+.orb-2 {
+  width: 80px;
+  height: 80px;
+  bottom: 30%;
+  right: 10%;
+}
+
+.orb-3 {
+  width: 100px;
+  height: 100px;
+  top: 40%;
+  left: 10%;
+}
+
+.robot-hand {
+  position: absolute;
+  bottom: -50px;
+  right: 0;
+  width: 400px;
+  height: 400px;
+  background: url('/robot-hand.png') no-repeat center/contain;
+  transform: rotate(15deg);
+}
+
+@media (max-width: 1024px) {
+  .hero-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .hero-text p {
+    margin: 0 auto 3rem;
+  }
+
+  .get-started-btn {
+    margin: 0 auto;
+  }
+
+  .cards-visual {
+    height: 400px;
+  }
+} 
