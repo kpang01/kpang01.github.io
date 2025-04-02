@@ -1,0 +1,26 @@
+/* App.css - Keep minimal or remove if not needed */
+
+/* Ensure App takes full height if needed, although index.css handles body/root */
+.App {
+  min-height: 100vh;
+  /* Add any other App-specific container styles if necessary */
+}
+
+/* Remove or comment out previous styles like: */
+/*
+.App {
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+main {
+  overflow-x: hidden;
+}
+*/

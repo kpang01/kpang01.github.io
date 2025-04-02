@@ -1,0 +1,138 @@
+.contact-section {
+  padding: 100px 0;
+  background-color: #00040F; /* Use new background color */
+  text-align: center; /* Center align section content */
+}
+
+/* Section title styles */
+.contact-section .section-title {
+  margin-bottom: 20px; /* Adjust margin */
+  font-size: var(--fz-heading);
+  color: var(--white); /* Use white for titles */
+}
+.contact-section .section-title::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: var(--cyan-highlight); /* Use highlight color */
+  margin: 0.5rem auto 0;
+}
+
+.contact-section .section-description {
+  max-width: 600px;
+  margin: 0 auto 50px;
+  color: rgba(255, 255, 255, 0.7); /* Match hero paragraph color */
+  font-size: var(--fz-lg);
+}
+
+.contact-container {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack vertically */
+  align-items: center; /* Center items */
+  /* gap: 50px; */ /* Remove gap as form is gone */
+  max-width: 700px; /* Limit width */
+  margin: 0 auto; /* Center container */
+  text-align: left; /* Reset text align for children */
+}
+
+.contact-info {
+  /* Remove background color, integrate info directly */
+  width: 100%; /* Take full width of container */
+}
+
+.contact-item {
+  display: flex;
+  align-items: center; /* Center align icon and text */
+  margin-bottom: 20px; /* Adjust spacing */
+  color: rgba(255, 255, 255, 0.7); /* Adjust text color */
+  font-size: var(--fz-md);
+}
+
+.icon {
+  font-size: 1.5rem; /* Keep icon size */
+  margin-right: 15px; /* Adjust spacing */
+  color: var(--cyan-highlight); /* Use highlight color for icons */
+  width: 25px; /* Fixed width for alignment */
+  text-align: center;
+}
+
+.contact-text h3 {
+  font-size: var(--fz-lg); /* Adjust size */
+  margin-bottom: 5px;
+  color: var(--white); /* Use white for subheadings */
+}
+
+.contact-text p {
+  color: rgba(255, 255, 255, 0.7); /* Adjust text color */
+  margin: 0; /* Remove default margin */
+}
+.contact-item a { /* Style link within contact item */
+    color: var(--cyan-highlight);
+    text-decoration: none;
+}
+.contact-item a:hover {
+    text-decoration: underline;
+}
+
+
+/* Wrapper for social links to center them */
+.social-links-wrapper {
+    width: 100%;
+    margin-top: 40px; /* Add space above social links */
+}
+
+.social-links {
+  display: flex;
+  justify-content: center; /* Center icons */
+  gap: 25px; /* Increased gap */
+  list-style: none;
+  padding: 0;
+  margin: 0; /* Remove default margin */
+}
+
+.social-icon {
+  color: var(--lightest-slate); /* Adjust icon color */
+  font-size: var(--fz-xxl); /* Larger icons */
+  transition: var(--transition);
+}
+.social-icon i { /* Target the <i> tag if FontAwesome is used */
+  transition: var(--transition);
+}
+
+.social-icon:hover {
+  color: var(--cyan-highlight); /* Use highlight color */
+  transform: translateY(-3px); /* Add hover effect */
+}
+
+
+/* Remove contact form styles */
+/*
+.contact-form { ... }
+.form-group { ... }
+.form-group input, .form-group textarea { ... }
+.form-group input::placeholder, .form-group textarea::placeholder { ... }
+.form-group input:focus, .form-group textarea:focus { ... }
+.form-group textarea { ... }
+.contact-form .button-primary { ... }
+*/
+
+/* Responsive Styles */
+/* Remove grid-specific responsive styles as we switched to flex */
+@media (max-width: 768px) {
+  .contact-container {
+    max-width: 90%; /* Adjust max width */
+  }
+}
+
+@media (max-width: 576px) {
+  .contact-item {
+    /* Keep flex-direction row or adjust as needed */
+  }
+  .icon {
+    /* Adjust icon margin if needed */
+  }
+  .contact-form {
+    padding: 1.5rem; /* Reduce padding */
+  }
+}
