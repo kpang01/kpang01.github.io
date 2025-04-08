@@ -1,27 +1,27 @@
 [
   {
     "week": 1,
-    "summary": "Week 1 summary of activities and accomplishments",
+    "summary": "Week 1 - Onboarding Week With Intel",
     "dailyNotes": [
       {
         "date": "2024-10-07",
-        "note": "Set up development environment; Review project requirements; Create initial project structure. Learned about the project architecture and development workflow."
+        "note": "Today is my first day joining Intel Corporation, and I feel excited to work with the Intel Technical Training Department to explore specific data and improve the efficiency of handling data. I’m going to Intel Penang to participate in the first day of orientation, which is called New Employee Orientation (NEO). At this event, I will team up with other new employees and take part in activities designed to help us better understand Intel’s corporate culture. After the event finishes, I will go back to the Kulim site to start my first day of internship placement. Thanks to Cathy and Nabila for welcoming me and bringing me to visit the KM6 production floor and office floor to familiarize myself with the working site. "
       },
       {
         "date": "2024-10-08",
-        "note": "Implement basic data processing pipeline; Write unit tests for core functions. Gained experience with testing frameworks and data validation."
+        "note": "Today is my first day joining Intel Corporation, and I feel excited to work with the Intel Technical Training Department to explore specific data and improve the efficiency of handling data. I’m going to Intel Penang to participate in the first day of orientation, which is called New Employee Orientation (NEO). At this event, I will team up with other new employees and take part in activities designed to help us better understand Intel’s corporate culture. After the event finishes, I will go back to the Kulim site to start my first day of internship placement. Thanks to Cathy and Nabila for welcoming me and bringing me to visit the KM6 production floor and office floor to familiarize myself with the working site. "
       },
       {
         "date": "2024-10-09",
-        "note": "Optimize database queries; Implement caching layer. Improved understanding of database optimization techniques."
+        "note": "On my third day of the internship, I studied the project assigned to me and discussed the details with my manager, Cathy Yong, to better understand the project’s title. After that, my buddy, Nabila, took me to visit the production floor so I could learn about the steps and flow for testing and packaging processors before they are sent to customers. After the visit, Zul explained how the HoloLens 2 can be used to train employees on the machines by providing step-by-step guidelines for the trainees. "
       },
       {
         "date": "2024-10-10",
-        "note": "Develop API endpoints; Add authentication middleware. Learned about API security best practices."
+        "note": "On that day, my team and I had a morning meeting where I introduced myself to the team. After that, I listened to the progress updates and weekly tasks from my team. I tried to understand the team culture and the responsibilities of the team in KM8. I learned that the technical training department focuses on scheduling training sessions for trainees, providing training, and tracking the progress of trainees to ensure they receive their certificates."
       },
       {
         "date": "2024-10-11",
-        "note": "Code review and documentation; Team meeting. Enhanced documentation skills and team collaboration."
+        "note": "Today, I am continuing to study the project assigned by my manager, Cathy Yong, by finding research papers on Google Scholar. This will help me understand the development possibilities for the project and the ways to make it happen. After that, I also learned about the guidelines and how the dashboard executes in SharePoint. "
       }
     ]
   },
