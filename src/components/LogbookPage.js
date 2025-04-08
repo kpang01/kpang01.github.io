@@ -1,66 +1,32 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import '../styles/LogbookPage.css';
 
 const LogbookPage = () => {
-  // Hardcoded logbook data
-  const logbookData = [
-    {
-      week: 1,
-      summary: "Week 1 summary of activities and accomplishments",
-      dailyNotes: [
-        {
-          date: "2024-10-07",
-          note: "Set up development environment; Review project requirements; Create initial project structure. Learned about the project architecture and development workflow."
-        },
-        {
-          date: "2024-10-08",
-          note: "Implement basic data processing pipeline; Write unit tests for core functions. Gained experience with testing frameworks and data validation."
-        },
-        {
-          date: "2024-10-09",
-          note: "Optimize database queries; Implement caching layer. Improved understanding of database optimization techniques."
-        },
-        {
-          date: "2024-10-10",
-          note: "Develop API endpoints; Add authentication middleware. Learned about API security best practices."
-        },
-        {
-          date: "2024-10-11",
-          note: "Code review and documentation; Team meeting. Enhanced documentation skills and team collaboration."
-        }
-      ]
-    },
-    {
-      week: 2,
-      summary: "Week 2 summary of activities and accomplishments",
-      dailyNotes: [
-        {
-          date: "2024-10-14",
-          note: "Implement machine learning model; Set up training pipeline. Learned about ML model deployment and monitoring."
-        },
-        {
-          date: "2024-10-15",
-          note: "Optimize model performance; Add feature engineering. Gained insights into model optimization techniques."
-        },
-        {
-          date: "2024-10-16",
-          note: "Create data visualization dashboard; Implement real-time updates. Improved skills in data visualization and real-time data handling."
-        },
-        {
-          date: "2024-10-17",
-          note: "Write integration tests; Deploy to staging environment. Learned about CI/CD pipelines and deployment strategies."
-        },
-        {
-          date: "2024-10-18",
-          note: "Performance testing; Bug fixes and improvements. Enhanced understanding of performance optimization."
-        }
-      ]
-    },
-    
-  ];
-
+  const [logbookData, setLogbookData] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
   const [modalOpen, setModalOpen] = useState(false);
   const [selectedWeek, setSelectedWeek] = useState(null);
+
+  useEffect(() => {
+    // Fetch logbook data from JSON file
+    fetch('/data/logbook.json')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Failed to fetch logbook data');
+        }
+        return response.json();
+      })
+      .then(data => {
+        setLogbookData(data);
+        setLoading(false);
+      })
+      .catch(err => {
+        console.error('Error fetching logbook data:', err);
+        setError('Failed to load logbook data. Please try again later.');
+        setLoading(false);
+      });
+  }, []);
 
   const openModal = (week) => {
     setSelectedWeek(week);
@@ -87,6 +53,14 @@ const LogbookPage = () => {
     const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
     return new Date(dateString).toLocaleDateString('en-US', options);
   };
+
+  if (loading) {
+    return <div className="loading-message">Loading logbook data...</div>;
+  }
+
+  if (error) {
+    return <div className="error-message">{error}</div>;
+  }
 
   return (
     <div className="logbook-page">
