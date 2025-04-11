@@ -41,10 +41,35 @@ const PersonalPage = () => {
             </div>
             
             <div className="internship-reflection">
-              <p>Reflections and details about the internship experience at Intel... (Content under construction)</p>
-              <div className="construction-indicator">
-                <div className="construction-icon">🚧</div>
-                <p>This section is currently being developed with more detailed information about my internship journey, including projects, achievements, and personal growth. Check back soon for updates!</p>
+              <div className="internship-project">
+                <h4>Large Language Model Implementation</h4>
+                <p>
+                  Working on the repeat ticket management system for semiconductor manufacturing, implementing 
+                  advanced LLM techniques to replace traditional keyword-based search algorithms. This project 
+                  significantly improves the efficiency of identifying similar maintenance tickets, reducing 
+                  duplicate efforts and accelerating problem resolution times.
+                </p>
+              </div>
+              
+              <div className="internship-project">
+                <h4>Production Monitoring Dashboard</h4>
+                <p>
+                  Developing data visualization dashboards using Power BI to monitor and analyze manufacturing 
+                  operator performance metrics. These visualizations provide real-time insights that help 
+                  management identify training needs and optimize production workflows.
+                </p>
+              </div>
+              
+              <div className="internship-skills-gained">
+                <h4>Key Skills & Technologies</h4>
+                <ul className="skills-list">
+                  <li>Vector databases for semantic search implementation</li>
+                  <li>LLM fine-tuning for domain-specific applications</li>
+                  <li>Python development for production-level applications</li>
+                  <li>Power BI dashboard development</li>
+                  <li>Cross-functional collaboration with technical and business teams</li>
+                  <li>Manufacturing process analysis and optimization</li>
+                </ul>
               </div>
             </div>
             

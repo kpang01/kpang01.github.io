@@ -80,10 +80,10 @@ const ContactPage = () => {
           <div className="social-connect">
             <h3>Connect With Me</h3>
             <div className="social-links">
-              <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="social-link">
+              <a href="https://github.com/kpang01" target="_blank" rel="noopener noreferrer" className="social-link">
                 <div className="social-icon">GitHub</div>
               </a>
-              <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="social-link">
+              <a href="https://linkedin.com/in/pang-khong-jun-87849330a" target="_blank" rel="noopener noreferrer" className="social-link">
                 <div className="social-icon">LinkedIn</div>
               </a>
               <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" className="social-link">

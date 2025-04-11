@@ -48,7 +48,7 @@ const Contact = () => {
                 </a>
               </li>
               <li>
-                <a href="https://github.com/Khongjunpang" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="GitHub">
+                <a href="https://github.com/kpang01" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="GitHub">
                   <i className="fab fa-github"></i> {/* FontAwesome GitHub Icon */}
                 </a>
               </li>

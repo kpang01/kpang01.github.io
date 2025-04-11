@@ -48,37 +48,32 @@ const UniversityPage = () => {
         <h2>My Experience at UUM</h2>
         <div className="experience-timeline">
           <div className="experience-item">
-            <div className="experience-date">2022-Present</div>
+            <div className="experience-date">2021-2025</div>
             <div className="experience-content">
               <h3>Bachelor of Science in Information Technology (Data Science)</h3>
               <p>
-                Pursuing my degree at the School of Computing with a focus on data science and machine learning. 
-                Gained expertise in data analysis, statistical modeling, and building predictive models.
-                Involved in various student organizations and development projects that 
-                strengthen my technical and soft skills.
+                Pursuing my degree at the School of Computing with a CGPA of 3.82/4.00 and consistently on the Dean's List for 6 consecutive semesters.
+                Specialized in data science, machine learning, and AI applications through advanced coursework and practical projects.
+                Expected to graduate in 2025 after completing my internship at Intel Corporation.
               </p>
             </div>
           </div>
           <div className="experience-item">
-            <div className="experience-date">2023</div>
+            <div className="experience-date">2024</div>
             <div className="experience-content">
-              <h3>Team Leader - Hackathon UUM 2023</h3>
+              <h3>Presenter at Cybersecurity Awareness Event Booth</h3>
               <p>
-                Led a team of four students to develop an innovative mobile application 
-                for campus sustainability, securing second place among 20 competing teams.
+                Represented University Utara Malaysia by presenting my Final Year Project on speech 
+                emotion recognition at a public exhibition booth. Demonstrated practical applications
+                of AI in emotion detection from speech patterns.
+                Engaged with diverse audiences to explain complex technical concepts in accessible terms.
               </p>
             </div>
           </div>
-          <div className="experience-item">
-            <div className="experience-date">2022-2023</div>
-            <div className="experience-content">
-              <h3>Student Representative Council</h3>
-              <p>
-                Served as a representative for the School of Computing, bridging 
-                communication between faculty and students to enhance academic experience.
-              </p>
-            </div>
-          </div>
+          
+          
+          
+          
         </div>
       </div>
 
