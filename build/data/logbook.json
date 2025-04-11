@@ -31,23 +31,23 @@
     "dailyNotes": [
       {
         "date": "2024-10-14",
-        "note": "Implement machine learning model; Set up training pipeline. Learned about ML model deployment and monitoring."
+        "note": "This is my second week since starting my internship, and I feel excited to come to the workplace and work with the team, including Nabila, Nad, and others. Today, my team and I attended an learning session, which provided insights into Intel's current situation and global market coverage. We learned about the significant challenges Intel faces in competing with other companies to regain its market share, which has been gradually decreasing. "
       },
       {
         "date": "2024-10-15",
-        "note": "Optimize model performance; Add feature engineering. Gained insights into model optimization techniques."
+        "note": "Today, I began exploring the frontend and backend of Power BI for the training team to gain a better understanding of the dashboard for employee training data. After that, I worked on understanding the flow of Power Automate and Power Apps to rebuild a new system for other locations. "
       },
       {
         "date": "2024-10-16",
-        "note": "Create data visualization dashboard; Implement real-time updates. Improved skills in data visualization and real-time data handling."
+        "note": "Today, Nabila and I had a meeting with Hiranava from the United States site to discuss transferring the Power BI dashboard to a platform, which will provide real-time data updates. I was informed that I’ll be in charge of the dashboard development for platform. After the meeting, I presented the digital twins project to Cathy and Nabila to help them understand its concepts and explore its feasibility for execution on the production floor. "
       },
       {
         "date": "2024-10-17",
-        "note": "Write integration tests; Deploy to staging environment. Learned about CI/CD pipelines and deployment strategies."
+        "note": "Today, Cathy, Nabila, and I participated in an online meeting which is a program that teaches us how to trace CPU throughout production. We learned to use trace tools to locate specific units in production and identify the people involved in their manufacturing."
       },
       {
         "date": "2024-10-18",
-        "note": "Performance testing; Bug fixes and improvements. Enhanced understanding of performance optimization."
+        "note": "Today, I was informed that I'll be joining a different team for a project related to automation, thanks to Cathy’s help in connecting with the automation department for further discussions. I also started drafting a proposal for this project, which I may work on throughout my internship."
       }
     ]
   },
