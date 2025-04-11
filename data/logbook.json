@@ -5,15 +5,15 @@
     "dailyNotes": [
       {
         "date": "2024-10-07",
-        "note": "Today is my first day joining Intel Corporation, and I feel excited to work with the Intel Technical Training Department to explore specific data and improve the efficiency of handling data. I’m going to Intel Penang to participate in the first day of orientation, which is called New Employee Orientation (NEO). At this event, I will team up with other new employees and take part in activities designed to help us better understand Intel’s corporate culture. After the event finishes, I will go back to the Kulim site to start my first day of internship placement. Thanks to Cathy and Nabila for welcoming me and bringing me to visit the KM6 production floor and office floor to familiarize myself with the working site. "
+        "note": "Today is my first day joining Intel Corporation, and I feel excited to work with the Intel Technical Training Department to explore specific data and improve the efficiency of handling data. I'm going to Intel Penang to participate in the first day of orientation, which is called New Employee Orientation (NEO). At this event, I will team up with other new employees and take part in activities designed to help us better understand Intel's corporate culture. After the event finishes, I will go back to the Kulim site to start my first day of internship placement. Thanks to Cathy and Nabila for welcoming me and bringing me to visit the KM6 production floor and office floor to familiarize myself with the working site."
       },
       {
         "date": "2024-10-08",
-        "note": "Today is my first day joining Intel Corporation, and I feel excited to work with the Intel Technical Training Department to explore specific data and improve the efficiency of handling data. I’m going to Intel Penang to participate in the first day of orientation, which is called New Employee Orientation (NEO). At this event, I will team up with other new employees and take part in activities designed to help us better understand Intel’s corporate culture. After the event finishes, I will go back to the Kulim site to start my first day of internship placement. Thanks to Cathy and Nabila for welcoming me and bringing me to visit the KM6 production floor and office floor to familiarize myself with the working site. "
+        "note": "On the morning of my second day, my manager, Cathy, had a one-on-one meeting with me to explain the organization chart for Intel management and introduce the team members. After that, we discussed the project and organizational needs for developing a new system to facilitate trainee training using AI. We talked about three projects that I will be working on during my internship. After the meeting, Nabila and Nad briefed me on the tasks I will be responsible for throughout the internship, such as dashboard monitoring and other related duties."
       },
       {
         "date": "2024-10-09",
-        "note": "On my third day of the internship, I studied the project assigned to me and discussed the details with my manager, Cathy Yong, to better understand the project’s title. After that, my buddy, Nabila, took me to visit the production floor so I could learn about the steps and flow for testing and packaging processors before they are sent to customers. After the visit, Zul explained how the HoloLens 2 can be used to train employees on the machines by providing step-by-step guidelines for the trainees. "
+        "note": "On my third day of the internship, I studied the project assigned to me and discussed the details with my manager, Cathy Yong, to better understand the project's title. After that, my buddy, Nabila, took me to visit the production floor so I could learn about the steps and flow for testing and packaging processors before they are sent to customers. After the visit, Zul explained how the HoloLens 2 can be used to train employees on the machines by providing step-by-step guidelines for the trainees."
       },
       {
         "date": "2024-10-10",
@@ -21,60 +21,398 @@
       },
       {
         "date": "2024-10-11",
-        "note": "Today, I am continuing to study the project assigned by my manager, Cathy Yong, by finding research papers on Google Scholar. This will help me understand the development possibilities for the project and the ways to make it happen. After that, I also learned about the guidelines and how the dashboard executes in SharePoint. "
+        "note": "Today, I am continuing to study the project assigned by my manager, Cathy Yong, by finding research papers on Google Scholar. This will help me understand the development possibilities for the project and the ways to make it happen. After that, I also learned about the guidelines and how the dashboard executes in SharePoint."
       }
     ]
   },
   {
     "week": 2,
-    "summary": "Week 2 summary of activities and accomplishments",
+    "summary": "Week 2 - Learning About Intel's Market Position",
     "dailyNotes": [
       {
         "date": "2024-10-14",
-        "note": "Implement machine learning model; Set up training pipeline. Learned about ML model deployment and monitoring."
+        "note": "This is my second week since starting my internship, and I feel excited to come to the workplace and work with the team, including Nabila, Nad, and others. Today, my team and I attended an learning session, which provided insights into Intel's current situation and global market coverage. We learned about the significant challenges Intel faces in competing with other companies to regain its market share, which has been gradually decreasing."
       },
       {
         "date": "2024-10-15",
-        "note": "Optimize model performance; Add feature engineering. Gained insights into model optimization techniques."
+        "note": "Today, I began exploring the frontend and backend of Power BI for the training team to gain a better understanding of the dashboard for employee training data. After that, I worked on understanding the flow of Power Automate and Power Apps to rebuild a new system for other locations."
       },
       {
         "date": "2024-10-16",
-        "note": "Create data visualization dashboard; Implement real-time updates. Improved skills in data visualization and real-time data handling."
+        "note": "Today, Nabila and I had a meeting with Hiranava from the United States site to discuss transferring the Power BI dashboard to a platform, which will provide real-time data updates. I was informed that I'll be in charge of the dashboard development for platform. After the meeting, I presented the digital twins project to Cathy and Nabila to help them understand its concepts and explore its feasibility for execution on the production floor."
       },
       {
         "date": "2024-10-17",
-        "note": "Write integration tests; Deploy to staging environment. Learned about CI/CD pipelines and deployment strategies."
+        "note": "Today, Cathy, Nabila, and I participated in an online meeting which is a program that teaches us how to trace CPU throughout production. We learned to use trace tools to locate specific units in production and identify the people involved in their manufacturing."
       },
       {
         "date": "2024-10-18",
-        "note": "Performance testing; Bug fixes and improvements. Enhanced understanding of performance optimization."
+        "note": "Today, I was informed that I'll be joining a different team for a project related to automation, thanks to Cathy's help in connecting with the automation department for further discussions. I also started drafting a proposal for this project, which I may work on throughout my internship."
       }
     ]
   },
   {
     "week": 3,
-    "summary": "Week 3 summary of activities and accomplishments",
+    "summary": "Week 3 - Working on Power BI Dashboard and Project Planning",
     "dailyNotes": [
       {
         "date": "2024-10-21",
-        "note": "Implement advanced data processing algorithms; Optimize for performance. Learned about algorithmic complexity and optimization techniques."
+        "note": "Today, Nabila and I had a meeting to discuss for bringing the Power BI dashboard to a platform called Polaris, which can provide real-time data updates to the dashboard. This integration will help stakeholders quickly understand and identify problems and enable timely solutions to reduce production costs. Afterward, I discussed with my supervisor a project related to digital twins and monitoring employee performance in production."
       },
       {
         "date": "2024-10-22",
-        "note": "Develop user interface components; Implement responsive design. Improved skills in frontend development and UI/UX principles."
+        "note": "Today, I discussed with Hiranava, one of the people in charge of the dashboard platform, regarding permissions and changing data types in the database for the Power BI platform. After that, I learned about the A3 format proposal for business needs, as opposed to the academic formats used at the university and present the proposal to the supervisor for improvement and determine the requirement."
       },
       {
         "date": "2024-10-23",
-        "note": "Set up continuous integration pipeline; Configure automated testing. Gained experience with CI/CD tools and practices."
+        "note": "Today, I worked on improving the project title and researched some studies from my previous university team. I found several systems that could be integrated into my current project during my internship, potentially as AI solutions to enhance employee productivity."
       },
       {
         "date": "2024-10-24",
-        "note": "Implement security features; Conduct security audit. Learned about application security best practices and vulnerability assessment."
+        "note": "Today, I was informed that I'll be joining a project from the automation team. I'm grateful to my supervisor, Cathy, for bringing me this opportunity to study the latest and most advanced technology in the manufacturing industry. This will be a valuable experience for me to learn and understand the manufacturing process."
       },
       {
         "date": "2024-10-25",
-        "note": "Code review and refactoring; Documentation updates. Enhanced code quality and maintainability skills."
+        "note": "This morning, I studied a new project related to the lights-out automation concept introduced by the automation department. I am working to understand how this concept applies to semiconductor manufacturing to better connect with other departments. In the afternoon, my team and I went out for lunch and had some conversations with each other."
+      }
+    ]
+  },
+  {
+    "week": 4,
+    "summary": "Week 4 - Learning Power BI and Preparing for MA Team Project",
+    "dailyNotes": [
+      {
+        "date": "2024-10-28",
+        "note": "Today, Nabila and I tried to clone the Power BI dashboard for training team into the dashboard platform at the early of the day, which dashboard was developed by the previous employee."
+      },
+      {
+        "date": "2024-10-29",
+        "note": "In the early of the day, Cathy and I discussed about the OKRs that need to be achieved for this quarter of the year, and tried to assign the project for this whole period of internship."
+      },
+      {
+        "date": "2024-10-30",
+        "note": "Today, I tried to get familiar with the Power BI development and the Power Apps that may be used in future projects, and got notice that the internship project will be assigned to another team from the MA Intel."
+      },
+      {
+        "date": "2024-10-31",
+        "note": "In the early of the day, I continued to study about Power BI and the current dashboard from the training team, that will be changed in the future deployment in the dashboard platform."
+      },
+      {
+        "date": "2024-11-01",
+        "note": "Today, I was notified that next week I will have a session with the MA team for the upcoming internship project, which is one of the advanced solutions for searching repeated tickets and applying it into the current system."
+      }
+    ]
+  },
+  {
+    "week": 5,
+    "summary": "Week 5 - Starting Work on LLM Project and Repeat Ticket System",
+    "dailyNotes": [
+      {
+        "date": "2024-11-04",
+        "note": "Today, I attended the sharing session about my internship project, and thanks a lot to my Supervisor, Cathy Yong for collaborating me and MA team for this incredible opportunity to me to take part in the LLM use case project, It was a great experience for me to apply my learning knowledge to the current real case project."
+      },
+      {
+        "date": "2024-11-05",
+        "note": "Today, I studied about the repeat ticket system that is currently deployed in production, and tried to familiarize myself with the workflow and algorithm that has been used in the system."
+      },
+      {
+        "date": "2024-11-06",
+        "note": "Today, I joined a meeting with the US team, chaired by Hiranava, for the dashboard platform in the internal site of Intel. We discussed about the dashboard usability and problems associated with training schedule and management."
+      },
+      {
+        "date": "2024-11-07",
+        "note": "Today, I'm continuing to study about the repeat ticket system, and making some code review to familiarize myself with the current deployed system. We're considering changing the BM_25 algorithm to an LLM algorithm."
+      },
+      {
+        "date": "2024-11-08",
+        "note": "Today, I attended the DSU meeting with MA team and tried to get to know each other for the first time in the online meeting, and how they report the progress day by day. After that, Kok Chai created a session for setting up the development environment for the repeat ticket system."
+      }
+    ]
+  },
+  {
+    "week": 6,
+    "summary": "Week 6 - Working with AI Solution Team and Studying Repeat Ticket System",
+    "dailyNotes": [
+      {
+        "date": "2024-11-11",
+        "note": "Today, I attended the meeting from AI solution team and tried to familiarize myself with the DSU meeting and thanks for help from Kok Chai, who will be guiding me for the whole project of repeat ticket."
+      },
+      {
+        "date": "2024-11-12",
+        "note": "At the early of the day, I attended an open forum from the CFO, Dave from Intel, who explained about the current situation and future targets that should be achieved in time to time."
+      },
+      {
+        "date": "2024-11-13",
+        "note": "Today, after joining the DSU meeting with Kok Chai's team, I attended the QGS for quarter 4 in 2024 with all employees from KM site, and the event for lucky draw and sharing poster for Deepavali."
+      },
+      {
+        "date": "2024-11-14",
+        "note": "Today, I'm making code review about the repeat ticket system from the current deployed algorithm, which is BM_25 algorithm that is similar to the Google search engine, where it uses keywords for searching similar tickets from the database."
+      },
+      {
+        "date": "2024-11-15",
+        "note": "Today, after attending the DSU meeting with Kok Chai's team, Kok Chai and I had a session for setting up the development environment, while waiting for the API key application to the word embedding and vectorDB."
+      }
+    ]
+  },
+  {
+    "week": 7,
+    "summary": "Week 7 - Learning Git Branches and Power BI Visualization",
+    "dailyNotes": [
+      {
+        "date": "2024-11-18",
+        "note": "Today, I attended MA team meetings to report the progress for project internship and hear about the task reporting from other team members. After that, I was learning about the git branches for Github repos for the repeated ticket system."
+      },
+      {
+        "date": "2024-11-19",
+        "note": "Today, I was studying about the data for the dashboard project from Cathy, supervisor of my internship, which is related to the performance monitoring of operators in the production site. We tried to visualize the production rate for each module or part of the production inside the assembly and testing site."
+      },
+      {
+        "date": "2024-11-20",
+        "note": "Today, I attended the DSU meeting chaired by Kok Chai, project manager for my internship project, repeated ticket system. After that, I continued to study about the data related to the performance of operators from the production site."
+      },
+      {
+        "date": "2024-11-21",
+        "note": "Today, I tried to explore and apply visual indicators to monitor and visualize the data regarding to the performance of operators, and kept studying about visual techniques using in Power BI."
+      },
+      {
+        "date": "2024-11-22",
+        "note": "Today, I continued my study about Power BI and data from the internal source of the Intel platform, which is one of the databases related to the production site."
+      }
+    ]
+  },
+  {
+    "week": 8,
+    "summary": "Week 8 - Knowledge Sharing Sessions and Dashboard Development",
+    "dailyNotes": [
+      {
+        "date": "2024-11-25",
+        "note": "At the morning, I attended the meeting from the MA team and reported the progress of the project and tasks to be conducted later. After that, I attended the meeting with Khairil for project sharing and got some knowledge from the production, since he is the one in charge of writing and reporting the tickets into the system from the production site."
+      },
+      {
+        "date": "2024-11-26",
+        "note": "Today, I attended the sharing session about interfacing C and C++ code with Python, learning about how to make C and C++ applied and combined with Python environment. This was a great learning experience for me as an intern for studying about outside knowledge coming from Intel."
+      },
+      {
+        "date": "2024-11-27",
+        "note": "In the beginning of the day, I attended the meeting with Hiranava and discussed about the dashboard platform for internal sources in Intel. The meeting addressed the problems about the training team using it for scheduling or managing training sessions."
+      },
+      {
+        "date": "2024-11-28",
+        "note": "Today, I explored dashboard design for visualizing the performance of the production, including monitoring the production rate of employees, and visualizing the data so that users can observe about their own performance."
+      },
+      {
+        "date": "2024-11-29",
+        "note": "Today, after attending the DSU meeting with MA team and reporting about the progress for repeated ticket system, I joined an event about the AI introduction and Intel Tools."
+      }
+    ]
+  },
+  {
+    "week": 9,
+    "summary": "Week 9 - Dashboard Development and Visualization Techniques",
+    "dailyNotes": [
+      {
+        "date": "2024-12-02",
+        "note": "Today, I attended the meeting with MA team to report the daily tasks and any issues coming from team members. After that, I tried to explore some of the design and layout options for the dashboard that can be implemented."
+      },
+      {
+        "date": "2024-12-03",
+        "note": "Today, I attended the first meeting about the dashboard that will be developed in the future for the production. We discussed a bit about the requirements and layout of the dashboard, as well as the data required to visualize it."
+      },
+      {
+        "date": "2024-12-04",
+        "note": "Today, I tried to continue my previous work and explore some data visualization skills, including HTML, CSS, and JavaScript using CSV files to visualize the data. Meanwhile, I found some resources and visualization techniques that are applicable to the production dashboard."
+      },
+      {
+        "date": "2024-12-05",
+        "note": "Today, I attended a sharing session from the MA team about their previous project and got some knowledge from them. It was a great opportunity for me to take part and gain understanding about the AI solutions applied inside the production."
+      },
+      {
+        "date": "2024-12-06",
+        "note": "At the beginning of the day, I tried to draft some layouts for the dashboard related to the performance of employees, using Power BI and dummy data to proof the concept of the project. After that, the sharing session from the MA team about the previous project was also a great opportunity for me to keep learning about AI solutions."
+      }
+    ]
+  },
+  {
+    "week": 10,
+    "summary": "Week 10 - MA Team Project Insights and Production Dashboard",
+    "dailyNotes": [
+      {
+        "date": "2024-12-09",
+        "note": "At the beginning of the day, I attended the MA team meeting and listened to the sharing about the previous project from the team. It was a great experience for me to learn and study about the previous project and its concept to help in the production."
+      },
+      {
+        "date": "2024-12-10",
+        "note": "Today, I attended the sprint planning from the MA team, and received an announcement about projects being passed down to other team members for future action. Jing Zhi and Jaya, as developers in the MA team, will be consultants for the project."
+      },
+      {
+        "date": "2024-12-11",
+        "note": "Today, I attended the release sharing about the MA team project, and also attended the meeting with Hiranava, developer for dashboard platform, for the Dashboard testing and modification."
+      },
+      {
+        "date": "2024-12-12",
+        "note": "Today, I worked on modifying the dashboard from the training team, and discussed about the monitoring dashboard for production, in case we wanted to let employees know about their performance."
+      },
+      {
+        "date": "2024-12-13",
+        "note": "Today morning, the MA team and I attended a visiting of the production tool at the KM5 production site. It was a great experience for me to know about the whole process of the AI tools that are very useful for more efficient production of the chips."
+      }
+    ]
+  },
+  {
+    "week": 11,
+    "summary": "Week 11 - Joining Data Science Team and Repeat Ticket Project",
+    "dailyNotes": [
+      {
+        "date": "2024-12-16",
+        "note": "Today, Cathy announced that I will be joining team with Fatira, one of the Data Scientists, for designing the dashboard coming from the production. It was a great opportunity for me to gain experience for the development and deployment of dashboards based on what I learned in my campus."
+      },
+      {
+        "date": "2024-12-17",
+        "note": "Today in the 2nd half, I attended the meeting with the whole KM site for the open forum and Live Q&A with Dr. Naga for the future strategy of Intel Factory. It was a great forum to let us know more about the current status and future targets."
+      },
+      {
+        "date": "2024-12-18",
+        "note": "Today, I attended the pass down of the project related to the repeated ticket from the system, and as a developer, I will be in charge of bringing the API and integrating it into our current system."
+      },
+      {
+        "date": "2024-12-19",
+        "note": "Today, I've discussed the future work with Project Scrum Master, and the project will be currently passed to me whereby 2 other members will serve as consultants for me."
+      },
+      {
+        "date": "2024-12-20",
+        "note": "Today, after DSU meeting, I attended the meeting with Krish, who owns the API platform, with another team member, for applying for API for LLM and word embedding key that will be used in our Repeated Ticket system."
+      }
+    ]
+  },
+  {
+    "week": 12,
+    "summary": "Week 12 - Production Dashboard Development",
+    "dailyNotes": [
+      {
+        "date": "2024-12-23",
+        "note": "Today, I attended the meeting with Mutu, one of the managers for the production dashboard. I showed the design layout for the dashboard and received some ideas and feedback from Mutu, the project stakeholder. After that, I tried to apply these ideas into the current design, while finding ways to publish the dashboard into production."
+      },
+      {
+        "date": "2024-12-24",
+        "note": "Today, I found some sources for the dashboard and framework that would be suitable for our development and deployment in production. I made reference to the usage of Python frameworks, including Dash and Flask."
+      },
+      {
+        "date": "2024-12-25",
+        "note": "Christmas public holiday"
+      },
+      {
+        "date": "2024-12-26",
+        "note": "Today, I'm WFH and kept working on the production dashboard to design the layout and data that should be visualized for the user. After that, my team, Mutu, Fatira, and I conducted a meeting to discuss the data and functions required by the user."
+      },
+      {
+        "date": "2024-12-27",
+        "note": "Today, I kept working on the functions that received feedback from the team and modified the current dashboard layout."
+      }
+    ]
+  },
+  {
+    "week": 13,
+    "summary": "Week 13 - Dashboard Demo and User Feedback",
+    "dailyNotes": [
+      {
+        "date": "2025-01-01",
+        "note": "Today, my team and I demoed the new Dashboard for production to the stakeholder. The presentation highlighted the key features of the dashboard, including enhanced visualization, streamlined workflows, tailored to production needs. We received some feedback from the customer, and discussed with the team how requirements can be fulfilled."
+      },
+      {
+        "date": "2025-01-02",
+        "note": "Today morning, Cathy and I attended a meeting with Raj, shift manager from the production, to present about the Dashboard related to monitor performance of the employees. After that, we made a further discussion and gathered insights about what we could add to the dashboard."
+      },
+      {
+        "date": "2025-01-03",
+        "note": "Today, I attended a meeting with MA team for DSU to update and report the daily tasks and completed tasks from previous days. After that, I adjusted the dashboard for the production, including changing the name of the table, adjusting layout and adding more filters inside the dashboard."
+      },
+      {
+        "date": "2025-01-04",
+        "note": "Today, I'm finding some resources from the open community for adding the use case of the dashboard, like adding and validating the instructions based on the user. But, I'm facing some problems when updating the instructions into the CSV file."
+      },
+      {
+        "date": "2025-01-05",
+        "note": "Today, I finished the requirement for Dashboard from the previous discussion, like inserting WWID for the people who are editing the instructions into the dashboard, and also dataset, in case we need to have validation of the instructions and avoid confusion."
+      }
+    ]
+  },
+  {
+    "week": 14,
+    "summary": "Week 14 - Project Handover and Dashboard Updates",
+    "dailyNotes": [
+      {
+        "date": "2025-01-08",
+        "note": "Today I attended a meeting for the Production dashboard, received feedback from Mutu and the team to improve and finish requirements coming from the customer. After that, I listed out the projects and jobs that have been completed and ongoing from the previous year, and discussed with Cathy, supervisor for my internship, about passing down supervisor role to TL Goh, manager for manufacturing."
+      },
+      {
+        "date": "2025-01-09",
+        "note": "Today, in the sprint planning meeting with Shirley's Team, they reviewed the last sprint, set goals for the next two weeks, and prioritized tasks. After that, I started to review the code for the dashboard and made some corrections to errors that occurred in the development."
+      },
+      {
+        "date": "2025-01-10",
+        "note": "Today, Fatira and I discussed about the progress for the dashboard, and updated the functions including instructions and adding more filter options for the user to choose. After that, I met with Mutu for the progress of the dashboard."
+      },
+      {
+        "date": "2025-01-11",
+        "note": "In the earlier of the day, Cathy and I had a meeting with TL for passing down the list of projects to supervise me for the entire period of internship. After that, I studied about the dashboard functionality that could be added to it."
+      },
+      {
+        "date": "2025-01-12",
+        "note": "Today morning I attended the DSU meeting with the AI solution team. After that, I explored how to validate names in the dashboard system."
+      }
+    ]
+  },
+  {
+    "week": 15,
+    "summary": "Week 15 - Dashboard Implementation and Training Events",
+    "dailyNotes": [
+      {
+        "date": "2025-01-15",
+        "note": "Today morning, I attended the meeting with MA team, Hong Ling, project manager, for reporting the tasks and plans after the meeting. After that, I tried to solve problems coming from the production dashboard and shared the steps for future use."
+      },
+      {
+        "date": "2025-01-16",
+        "note": "Today morning, I attended the meeting with Cathy, supervisor, and Nabila, my buddy, for alignment plan about the event for training room, in the purpose of sharing the manual and explaining for new training tool."
+      },
+      {
+        "date": "2025-01-17",
+        "note": "Today morning, I attended the event organized by Nabila, member from training team, and Cathy, supervisor, about the walkthrough of training toolkits and functionality overview for new training tools. After that, I shared the production dashboard with Mutu, manager, and Fatira, Data scientist, with the users, and received some feedback and improving ways that we can implement into our dashboard."
+      },
+      {
+        "date": "2025-01-18",
+        "note": "Today, I attended an online event for new hires that focused on an ergonomic introduction, providing valuable insights into creating a comfortable and efficient workspace. The session detailed practical advice on adjusting seating, desk height, and monitor positioning to enhance posture and reduce strain, while also highlighting the importance of ergonomics for long-term health and productivity."
+      },
+      {
+        "date": "2025-01-19",
+        "note": "Today, I attended DSU in the morning with the MA team for Repeat Ticket management project, and synced with Jocelyn, machine learning engineer who will be working together with me on the project."
+      }
+    ]
+  },
+  {
+    "week": 16,
+    "summary": "Week 16 - Final Project Assignments and Team Transitions",
+    "dailyNotes": [
+      {
+        "date": "2025-01-22",
+        "note": "Today, I attend the DSU with MA team, and reported the progress for our project related to the repeat ticket management. After that, I had a meeting with the customer to discuss the production dashboard. We reviewed the current features, including user interface design and data visualization, while addressing the suggestions from the customer for enhancing the filtering options and quicker navigation. The conversation provided some valuable feedback that will help us to refine the dashboard to better meet user needs."
+      },
+      {
+        "date": "2025-01-23",
+        "note": "Today, I attended the sprint planning session chaired by Jia Sheng, member from MA team, where the team reviewed the product backlog and prioritized tasks for the upcoming sprint. They discussed each item in detail, estimated the effort required, and identified potential challenges and dependencies."
+      },
+      {
+        "date": "2025-01-24",
+        "note": "Today, I joined the DSU meeting with MA team, and reported the progress of the project, meanwhile I was waiting for the API key for embedding the whole dataset to VectorDB. After that, I was assigned to David's Team, one of the MFG teams in Kulim Intel, for reporting my activity and attending staff meetings for new announcements."
+      },
+      {
+        "date": "2025-01-25",
+        "note": "Today morning, I attended the staff meeting with David, manager of the MFG, and Fatira, data scientist, for the first time. I introduced myself to the team members and listened to the activities from other team members. Also, David briefly went over the safety agenda and updates for each member. After that, I had a project sync with Jocelyn for the Repeat ticket management system, and we assigned different jobs we need to do before the next meeting."
+      },
+      {
+        "date": "2025-01-26",
+        "note": "Today, I attended the DSU meeting with MA team for reporting the progress of the project, and in the 2nd half, I attended the meeting with David and Fatira for assigning new tasks for me to gain more experience."
       }
     ]
   }
-] 
+]
