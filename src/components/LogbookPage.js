@@ -40,7 +40,7 @@ const LogbookPage = () => {
 
   // Calculate internship dates
   const internshipStartDate = new Date('2024-10-07');
-  const internshipEndDate = new Date('2024-12-27');
+  const internshipEndDate = new Date('2025-04-08');
   
   const calculateWeeks = (startDate, endDate) => {
     const oneWeek = 7 * 24 * 60 * 60 * 1000;
