@@ -1,0 +1,555 @@
+.university-page {
+  color: var(--white);
+  padding-top: 80px;
+}
+
+/* Hero Section */
+.university-hero {
+  height: 500px;
+  background: linear-gradient(rgba(10, 25, 47, 0.8), rgba(10, 25, 47, 0.9)), 
+              url('https://example.com/uum-campus.jpg') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.hero-content {
+  max-width: 800px;
+  padding: 0 20px;
+}
+
+.hero-content h1 {
+  font-size: var(--fz-heading);
+  color: var(--cyan-highlight);
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: var(--fz-xl);
+  color: var(--light-slate);
+}
+
+/* Section Styling */
+.university-section {
+  padding: 80px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.university-section h2 {
+  font-size: var(--fz-heading);
+  color: var(--cyan-highlight);
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.alt-bg {
+  background-color: rgba(100, 255, 218, 0.05);
+}
+
+/* About Section */
+.about-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.about-text p {
+  color: var(--slate);
+  font-size: var(--fz-lg);
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.about-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.stat-item {
+  background: rgba(100, 255, 218, 0.05);
+  border: 1px solid rgba(100, 255, 218, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.stat-item:hover {
+  transform: translateY(-5px);
+  background: rgba(100, 255, 218, 0.1);
+}
+
+.stat-number {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--cyan-highlight);
+  margin-bottom: 10px;
+}
+
+.stat-label {
+  color: var(--light-slate);
+  font-size: var(--fz-md);
+}
+
+/* Academic Colleges */
+.academic-colleges {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.college-card {
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.college-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  background: rgba(100, 255, 218, 0.05);
+}
+
+.college-icon {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.college-card h3 {
+  color: var(--cyan-highlight);
+  margin-bottom: 15px;
+  font-size: var(--fz-xl);
+}
+
+.college-card p {
+  color: var(--slate);
+  font-size: var(--fz-md);
+  line-height: 1.6;
+}
+
+/* Experience Timeline */
+.experience-timeline {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.experience-timeline::before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  background-color: var(--cyan-highlight);
+  top: 0;
+  bottom: 0;
+  left: 120px;
+}
+
+.experience-item {
+  display: flex;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.experience-date {
+  min-width: 120px;
+  color: var(--cyan-highlight);
+  font-weight: bold;
+  padding-right: 20px;
+  text-align: right;
+}
+
+.experience-content {
+  padding-left: 30px;
+}
+
+.experience-content h3 {
+  color: var(--white);
+  margin-bottom: 10px;
+  font-size: var(--fz-xl);
+}
+
+.experience-content p {
+  color: var(--slate);
+  line-height: 1.6;
+}
+
+.experience-item::after {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-color: var(--cyan-highlight);
+  border-radius: 50%;
+  left: 113px;
+  top: 5px;
+}
+
+/* Campus Highlights */
+.campus-highlights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.highlight-card {
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 10px;
+  padding: 25px;
+  text-align: center;
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.highlight-card:hover {
+  transform: translateY(-5px);
+  background: rgba(100, 255, 218, 0.07);
+}
+
+.highlight-icon {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.highlight-card h3 {
+  color: var(--cyan-highlight);
+  margin-bottom: 15px;
+  font-size: var(--fz-lg);
+}
+
+.highlight-card p {
+  color: var(--slate);
+  font-size: var(--fz-md);
+  line-height: 1.6;
+}
+
+/* Gallery */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.gallery-item {
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.03);
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: translateY(-5px);
+}
+
+.gallery-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.gallery-item:hover .gallery-image {
+  transform: scale(1.05);
+}
+
+/* Fallback for when images don't load */
+.gallery-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: var(--slate);
+  background: linear-gradient(rgba(10, 25, 47, 0.7), rgba(10, 25, 47, 0.9));
+  transition: all 0.3s ease;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.gallery-item:hover .gallery-placeholder {
+  background: linear-gradient(rgba(100, 255, 218, 0.1), rgba(10, 25, 47, 0.9));
+  color: var(--white);
+}
+
+/* Contact Section */
+.contact-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.contact-item {
+  display: flex;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 10px;
+  padding: 20px;
+  align-items: flex-start;
+  transition: all 0.3s ease;
+}
+
+.contact-item:hover {
+  transform: translateY(-5px);
+  background: rgba(100, 255, 218, 0.05);
+}
+
+.contact-icon {
+  font-size: 1.5rem;
+  margin-right: 15px;
+  color: var(--cyan-highlight);
+}
+
+.contact-detail h3 {
+  color: var(--white);
+  margin-bottom: 10px;
+  font-size: var(--fz-lg);
+}
+
+.contact-detail p {
+  color: var(--slate);
+  line-height: 1.6;
+}
+
+.contact-detail a {
+  color: var(--cyan-highlight);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.contact-detail a:hover {
+  color: var(--green);
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .about-content {
+    grid-template-columns: 1fr;
+  }
+  
+  .about-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .experience-timeline::before {
+    left: 0;
+  }
+  
+  .experience-item {
+    flex-direction: column;
+  }
+  
+  .experience-date {
+    min-width: auto;
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .experience-content {
+    padding-left: 20px;
+  }
+  
+  .experience-item::after {
+    left: -7px;
+  }
+  
+  .about-stats {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .university-hero {
+    height: 400px;
+  }
+}
+
+/* Internship Section */
+.internship-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.internship-header {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 40px;
+  align-items: flex-start;
+}
+
+.company-logo {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  flex-shrink: 0;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.company-logo-image {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.company-logo-placeholder {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--cyan-highlight);
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+.internship-intro {
+  flex-grow: 1;
+}
+
+.internship-intro h3 {
+  color: var(--white);
+  font-size: var(--fz-xl);
+  margin-bottom: 10px;
+}
+
+.internship-period {
+  color: var(--cyan-highlight);
+  font-size: var(--fz-md);
+  margin-bottom: 15px;
+}
+
+.internship-description {
+  color: var(--slate);
+  line-height: 1.6;
+  font-size: var(--fz-lg);
+}
+
+.internship-highlights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.internship-highlights .highlight-card {
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 10px;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.internship-highlights .highlight-card:hover {
+  transform: translateY(-5px);
+  background: rgba(100, 255, 218, 0.05);
+}
+
+.internship-highlights .highlight-icon {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.internship-highlights h4 {
+  color: var(--cyan-highlight);
+  margin-bottom: 10px;
+  font-size: var(--fz-lg);
+}
+
+.internship-highlights p {
+  color: var(--slate);
+  font-size: var(--fz-md);
+  line-height: 1.6;
+}
+
+.internship-skills {
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.internship-skills h4 {
+  color: var(--white);
+  margin-bottom: 15px;
+  font-size: var(--fz-lg);
+  text-align: center;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+.skill-tag {
+  background: rgba(100, 255, 218, 0.1);
+  color: var(--cyan-highlight);
+  padding: 6px 12px;
+  border-radius: 5px;
+  font-size: var(--fz-sm);
+  transition: all 0.3s ease;
+}
+
+.skill-tag:hover {
+  background: rgba(100, 255, 218, 0.2);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .internship-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .company-logo-placeholder,
+  .company-logo {
+    margin-bottom: 20px;
+  }
+}
+
+.internship-reflection {
+  color: var(--slate);
+  line-height: 1.6;
+  font-size: var(--fz-lg);
+  text-align: center;
+}
+
+.construction-indicator {
+  margin-top: 30px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 10px;
+  border: 1px dashed var(--cyan-highlight);
+  text-align: center;
+}
+
+.construction-icon {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+} 

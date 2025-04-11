@@ -1,0 +1,125 @@
+.footer {
+  background-color: #00040F; /* Match new body background */
+  color: var(--slate);
+  padding: 50px 0 30px; /* Adjust padding */
+  border-top: 1px solid rgba(92, 225, 230, 0.1); /* Subtle cyan border */
+}
+
+.footer-container {
+  max-width: 1400px; /* Match navbar/main content width */
+  margin: 0 auto;
+  padding: 0 40px; /* Match navbar/main content padding */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Align items to top */
+  margin-bottom: 40px; /* Space before copyright */
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  gap: 20px; /* Gap between columns when wrapped */
+}
+
+.footer-left {
+  flex-basis: 50%; /* Adjust basis as needed */
+  min-width: 250px; /* Prevent excessive shrinking */
+}
+
+.footer-title {
+  font-size: var(--fz-xl); /* Adjust size */
+  color: var(--cyan-highlight); /* Use highlight color */
+  margin-bottom: 10px;
+  font-weight: 700; /* Make title bolder */
+}
+
+.footer-tagline {
+  font-size: var(--fz-sm); /* Adjust size */
+  color: var(--light-slate); /* Use lighter slate */
+  margin: 0;
+}
+
+.footer-right {
+  flex-basis: 40%; /* Adjust basis */
+  text-align: right;
+  min-width: 200px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end; /* Align links to the right */
+  gap: 25px; /* Space between links */
+  flex-wrap: wrap; /* Allow links to wrap */
+}
+
+.footer-links li {
+  display: inline-block; /* Keep links inline */
+}
+
+.footer-links a {
+  color: var(--light-slate); /* Use lighter slate */
+  font-size: var(--fz-sm); /* Adjust size */
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.footer-links a:hover {
+  color: var(--cyan-highlight); /* Use highlight color */
+  text-decoration: underline;
+}
+
+/* Remove old social icon styles */
+/*
+.footer-social { ... }
+.footer-social h4 { ... }
+.footer .social-icons { ... }
+.footer .social-icons a { ... }
+.footer .social-icons a:hover { ... }
+*/
+
+/* Footer bottom text */
+.footer-bottom {
+  font-family: var(--font-mono);
+  font-size: var(--fz-xs);
+  line-height: 1.5;
+  color: var(--slate); /* Use standard slate */
+  text-align: center; /* Center copyright */
+  padding-top: 20px; /* Add space above copyright */
+  border-top: 1px solid rgba(92, 225, 230, 0.1); /* Separator line */
+}
+
+.footer-bottom p {
+  margin: 0; /* Remove default margin */
+}
+
+/* Remove old bottom link styles if they conflict */
+/*
+.footer-bottom a { ... }
+.footer-bottom a:hover { ... }
+*/
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column; /* Stack columns */
+    align-items: center; /* Center items */
+    text-align: center;
+    gap: 30px; /* Adjust gap */
+  }
+  .footer-right {
+    text-align: center;
+    width: 100%;
+  }
+  .footer-links {
+    justify-content: center; /* Center links */
+    gap: 20px;
+  }
+  .footer-container {
+      padding: 0 20px;
+  }
+  .footer {
+      padding: 40px 0 20px;
+  }
+}

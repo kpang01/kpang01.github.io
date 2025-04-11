@@ -1,0 +1,80 @@
+[
+  {
+    "week": 1,
+    "summary": "Week 1 - Onboarding Week With Intel",
+    "dailyNotes": [
+      {
+        "date": "2024-10-07",
+        "note": "Today is my first day joining Intel Corporation, and I feel excited to work with the Intel Technical Training Department to explore specific data and improve the efficiency of handling data. I’m going to Intel Penang to participate in the first day of orientation, which is called New Employee Orientation (NEO). At this event, I will team up with other new employees and take part in activities designed to help us better understand Intel’s corporate culture. After the event finishes, I will go back to the Kulim site to start my first day of internship placement. Thanks to Cathy and Nabila for welcoming me and bringing me to visit the KM6 production floor and office floor to familiarize myself with the working site. "
+      },
+      {
+        "date": "2024-10-08",
+        "note": "Today is my first day joining Intel Corporation, and I feel excited to work with the Intel Technical Training Department to explore specific data and improve the efficiency of handling data. I’m going to Intel Penang to participate in the first day of orientation, which is called New Employee Orientation (NEO). At this event, I will team up with other new employees and take part in activities designed to help us better understand Intel’s corporate culture. After the event finishes, I will go back to the Kulim site to start my first day of internship placement. Thanks to Cathy and Nabila for welcoming me and bringing me to visit the KM6 production floor and office floor to familiarize myself with the working site. "
+      },
+      {
+        "date": "2024-10-09",
+        "note": "On my third day of the internship, I studied the project assigned to me and discussed the details with my manager, Cathy Yong, to better understand the project’s title. After that, my buddy, Nabila, took me to visit the production floor so I could learn about the steps and flow for testing and packaging processors before they are sent to customers. After the visit, Zul explained how the HoloLens 2 can be used to train employees on the machines by providing step-by-step guidelines for the trainees. "
+      },
+      {
+        "date": "2024-10-10",
+        "note": "On that day, my team and I had a morning meeting where I introduced myself to the team. After that, I listened to the progress updates and weekly tasks from my team. I tried to understand the team culture and the responsibilities of the team in KM8. I learned that the technical training department focuses on scheduling training sessions for trainees, providing training, and tracking the progress of trainees to ensure they receive their certificates."
+      },
+      {
+        "date": "2024-10-11",
+        "note": "Today, I am continuing to study the project assigned by my manager, Cathy Yong, by finding research papers on Google Scholar. This will help me understand the development possibilities for the project and the ways to make it happen. After that, I also learned about the guidelines and how the dashboard executes in SharePoint. "
+      }
+    ]
+  },
+  {
+    "week": 2,
+    "summary": "Week 2 summary of activities and accomplishments",
+    "dailyNotes": [
+      {
+        "date": "2024-10-14",
+        "note": "Implement machine learning model; Set up training pipeline. Learned about ML model deployment and monitoring."
+      },
+      {
+        "date": "2024-10-15",
+        "note": "Optimize model performance; Add feature engineering. Gained insights into model optimization techniques."
+      },
+      {
+        "date": "2024-10-16",
+        "note": "Create data visualization dashboard; Implement real-time updates. Improved skills in data visualization and real-time data handling."
+      },
+      {
+        "date": "2024-10-17",
+        "note": "Write integration tests; Deploy to staging environment. Learned about CI/CD pipelines and deployment strategies."
+      },
+      {
+        "date": "2024-10-18",
+        "note": "Performance testing; Bug fixes and improvements. Enhanced understanding of performance optimization."
+      }
+    ]
+  },
+  {
+    "week": 3,
+    "summary": "Week 3 summary of activities and accomplishments",
+    "dailyNotes": [
+      {
+        "date": "2024-10-21",
+        "note": "Implement advanced data processing algorithms; Optimize for performance. Learned about algorithmic complexity and optimization techniques."
+      },
+      {
+        "date": "2024-10-22",
+        "note": "Develop user interface components; Implement responsive design. Improved skills in frontend development and UI/UX principles."
+      },
+      {
+        "date": "2024-10-23",
+        "note": "Set up continuous integration pipeline; Configure automated testing. Gained experience with CI/CD tools and practices."
+      },
+      {
+        "date": "2024-10-24",
+        "note": "Implement security features; Conduct security audit. Learned about application security best practices and vulnerability assessment."
+      },
+      {
+        "date": "2024-10-25",
+        "note": "Code review and refactoring; Documentation updates. Enhanced code quality and maintainability skills."
+      }
+    ]
+  }
+] 

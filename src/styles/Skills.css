@@ -1,0 +1,139 @@
+.skills-section {
+  padding: 100px 0;
+  background-color: #00040F; /* Use new background color */
+}
+
+/* Add a general section title style if not already global */
+.skills-section .section-title {
+  text-align: center;
+  margin-bottom: 50px; /* Increased margin */
+  font-size: var(--fz-heading);
+  color: var(--white); /* Use white for titles */
+}
+.skills-section .section-title::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: var(--cyan-highlight); /* Use highlight color */
+  margin: 0.5rem auto 0; /* Center underline */
+}
+
+
+.skills-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Equal columns */
+  gap: 50px;
+}
+
+/* Style for the new grouping div */
+.other-skills {
+  display: flex;
+  flex-direction: column;
+  gap: 40px; /* Space between Data/AI and Soft skills */
+}
+
+.technical-skills, .data-ai-skills, .soft-skills { /* Apply card style to all */
+  background-color: var(--navy); /* Use navy for cards */
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  box-shadow: 0 10px 30px -15px var(--navy-shadow); /* Add shadow */
+}
+
+.technical-skills h3, .data-ai-skills h3, .soft-skills h3 { /* Apply to new heading */
+  margin-bottom: 2rem; /* Increased margin */
+  font-size: var(--fz-xxl); /* Larger font size */
+  color: var(--white); /* Use white for subheadings */
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.technical-skills h3::after, .data-ai-skills h3::after, .soft-skills h3::after { /* Apply to new heading */
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background-color: var(--cyan-highlight); /* Use highlight color */
+}
+
+.skill-item {
+  margin-bottom: 1.5rem;
+}
+
+.skill-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px; /* Adjusted margin */
+  font-size: var(--fz-sm); /* Smaller font size */
+}
+
+.skill-name {
+  font-weight: 500;
+  color: var(--lightest-slate); /* Adjust color */
+}
+
+.skill-percentage {
+  color: var(--cyan-highlight); /* Use highlight color */
+  font-weight: 600;
+  font-family: var(--font-mono);
+}
+
+.skill-bar {
+  height: 8px; /* Thinner bar */
+  background-color: var(--dark-navy); /* Use main dark bg for bar background */
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
+
+.skill-level {
+  height: 100%;
+  background-color: var(--cyan-highlight); /* Use highlight color */
+  border-radius: var(--border-radius);
+  transition: width 0.5s var(--easing); /* Use easing */
+}
+
+.soft-skills-list {
+  list-style: none; /* Remove default list style */
+  padding: 0;
+  margin: 0;
+  display: grid; /* Use grid for layout */
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px; /* Gap between items */
+  font-size: var(--fz-sm);
+}
+
+.soft-skill-item {
+  position: relative;
+  padding-left: 20px; /* Space for the bullet */
+  color: var(--lightest-slate); /* Adjust color */
+  margin-bottom: 10px; /* Space between items */
+}
+
+.soft-skill-item::before {
+  content: '▹'; /* Use a different bullet */
+  position: absolute;
+  left: 0;
+  top: 0; /* Adjust vertical alignment if needed */
+  color: var(--cyan-highlight); /* Use highlight color */
+  line-height: inherit; /* Match line height */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) { /* Adjust breakpoint */
+  .skills-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .technical-skills {
+    margin-bottom: 0; /* Remove bottom margin when stacked */
+  }
+}
+
+@media (max-width: 576px) {
+  .soft-skills-list {
+    grid-template-columns: 1fr; /* Single column on small screens */
+  }
+}

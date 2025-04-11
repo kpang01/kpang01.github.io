@@ -1,0 +1,80 @@
+.about-section {
+  padding: 100px 0;
+  background-color: #00040F; /* Use new background color */
+}
+
+/* Styles for single column layout */
+.about-content-single-col {
+  max-width: 800px; /* Adjust max width as needed */
+  margin: 0 auto; /* Center the content */
+}
+
+/* Section title styles */
+.about-section .section-title {
+  text-align: center; /* Center title */
+  margin-bottom: 50px; /* Add margin */
+  font-size: var(--fz-heading);
+  color: var(--white); /* Use white for titles */
+}
+.about-section .section-title::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: var(--cyan-highlight); /* Use highlight color */
+  margin: 0.5rem auto 0; /* Center underline */
+}
+
+/* Subheading styles */
+.about-text h3 {
+  font-size: var(--fz-xxl);
+  color: var(--lightest-slate);
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+/* Paragraph styles */
+.about-text p {
+  margin-bottom: 15px;
+  color: rgba(255, 255, 255, 0.7); /* Match hero paragraph color */
+  font-size: var(--fz-lg);
+  line-height: 1.6;
+}
+
+/* Styles for Education Item */
+.education-item {
+  margin-bottom: 20px;
+  padding-left: 20px;
+  border-left: 2px solid var(--cyan-highlight);
+}
+
+.education-item h4 {
+  font-size: var(--fz-lg);
+  color: var(--lightest-slate);
+  margin-bottom: 5px;
+}
+
+.education-item .institution {
+  font-style: italic;
+  color: var(--slate);
+  margin-bottom: 5px;
+}
+
+.education-item .details {
+  font-size: var(--fz-sm);
+  color: var(--light-slate);
+  margin-bottom: 3px;
+}
+
+/* Button styles */
+.about-text .button-primary,
+.about-text .button-secondary {
+  margin-top: 20px;
+}
+
+/* Add basic responsive adjustments if needed for single column */
+@media (max-width: 768px) {
+  .about-content-single-col {
+    max-width: 90%; /* Allow more width on smaller screens */
+  }
+}

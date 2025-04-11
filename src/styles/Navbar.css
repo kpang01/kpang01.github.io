@@ -1,0 +1,94 @@
+/* Navbar Styles */
+.navbar {
+  position: absolute; /* Position absolutely at the top */
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 32px 0; /* Reduced vertical padding */
+  z-index: 1000; /* Ensure it's above other content */
+  transition: background-color 0.3s ease; /* Add transition for potential scroll effects */
+}
+
+/* Optional: Add background on scroll */
+/*
+.navbar.scrolled {
+  background-color: rgba(10, 25, 47, 0.85); // --dark-navy with opacity
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 30px -10px var(--navy-shadow);
+  padding: 20px 0; // Adjust padding on scroll
+}
+*/
+
+.navbar-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 40px; /* Horizontal padding */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px; /* Use var(--fz-xl) or --fz-xxl? */
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--white); /* Use variable */
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: var(--transition); /* Add transition */
+}
+.logo:hover {
+    color: var(--cyan-highlight); /* Use variable */
+}
+
+
+.nav-links {
+  display: flex;
+  gap: 48px;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-link {
+  color: var(--white); /* Use variable */
+  text-decoration: none;
+  font-size: 16px; /* Use var(--fz-md)? */
+  font-weight: 400;
+  transition: color 0.3s ease; /* Use var(--transition)? */
+  position: relative; /* Needed for ::after pseudo-element */
+  padding: 8px 0; /* Add some padding for hover area */
+}
+
+.nav-link:hover {
+  color: var(--cyan-highlight); /* Use variable */
+}
+
+/* Underline hover effect */
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0; /* Position at the bottom */
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--cyan-highlight); /* Use variable */
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none; /* Hide links on smaller screens */
+    /* Implement burger menu logic here if needed */
+  }
+  .navbar-container {
+    padding: 0 20px; /* Adjust padding */
+  }
+}
