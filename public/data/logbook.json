@@ -316,23 +316,23 @@
     "summary": "Week 13 - Dashboard Demo and User Feedback",
     "dailyNotes": [
       {
-        "date": "2025-01-01",
+        "date": "2024-12-30",
         "note": "Today, my team and I demoed the new Dashboard for production to the stakeholder. The presentation highlighted the key features of the dashboard, including enhanced visualization, streamlined workflows, tailored to production needs. We received some feedback from the customer, and discussed with the team how requirements can be fulfilled."
       },
       {
-        "date": "2025-01-02",
+        "date": "2024-12-31",
         "note": "Today morning, Cathy and I attended a meeting with Raj, shift manager from the production, to present about the Dashboard related to monitor performance of the employees. After that, we made a further discussion and gathered insights about what we could add to the dashboard."
       },
       {
-        "date": "2025-01-03",
+        "date": "2025-01-01",
         "note": "Today, I attended a meeting with MA team for DSU to update and report the daily tasks and completed tasks from previous days. After that, I adjusted the dashboard for the production, including changing the name of the table, adjusting layout and adding more filters inside the dashboard."
       },
       {
-        "date": "2025-01-04",
+        "date": "2025-01-02",
         "note": "Today, I'm finding some resources from the open community for adding the use case of the dashboard, like adding and validating the instructions based on the user. But, I'm facing some problems when updating the instructions into the CSV file."
       },
       {
-        "date": "2025-01-05",
+        "date": "2025-01-03",
         "note": "Today, I finished the requirement for Dashboard from the previous discussion, like inserting WWID for the people who are editing the instructions into the dashboard, and also dataset, in case we need to have validation of the instructions and avoid confusion."
       }
     ]
@@ -342,23 +342,23 @@
     "summary": "Week 14 - Project Handover and Dashboard Updates",
     "dailyNotes": [
       {
-        "date": "2025-01-08",
+        "date": "2025-01-06",
         "note": "Today I attended a meeting for the Production dashboard, received feedback from Mutu and the team to improve and finish requirements coming from the customer. After that, I listed out the projects and jobs that have been completed and ongoing from the previous year, and discussed with Cathy, supervisor for my internship, about passing down supervisor role to TL Goh, manager for manufacturing."
       },
       {
-        "date": "2025-01-09",
+        "date": "2025-01-07",
         "note": "Today, in the sprint planning meeting with Shirley's Team, they reviewed the last sprint, set goals for the next two weeks, and prioritized tasks. After that, I started to review the code for the dashboard and made some corrections to errors that occurred in the development."
       },
       {
-        "date": "2025-01-10",
+        "date": "2025-01-08",
         "note": "Today, Fatira and I discussed about the progress for the dashboard, and updated the functions including instructions and adding more filter options for the user to choose. After that, I met with Mutu for the progress of the dashboard."
       },
       {
-        "date": "2025-01-11",
+        "date": "2025-01-09",
         "note": "In the earlier of the day, Cathy and I had a meeting with TL for passing down the list of projects to supervise me for the entire period of internship. After that, I studied about the dashboard functionality that could be added to it."
       },
       {
-        "date": "2025-01-12",
+        "date": "2025-01-10",
         "note": "Today morning I attended the DSU meeting with the AI solution team. After that, I explored how to validate names in the dashboard system."
       }
     ]
@@ -368,23 +368,23 @@
     "summary": "Week 15 - Dashboard Implementation and Training Events",
     "dailyNotes": [
       {
-        "date": "2025-01-15",
+        "date": "2025-01-13",
         "note": "Today morning, I attended the meeting with MA team, Hong Ling, project manager, for reporting the tasks and plans after the meeting. After that, I tried to solve problems coming from the production dashboard and shared the steps for future use."
       },
       {
-        "date": "2025-01-16",
+        "date": "2025-01-14",
         "note": "Today morning, I attended the meeting with Cathy, supervisor, and Nabila, my buddy, for alignment plan about the event for training room, in the purpose of sharing the manual and explaining for new training tool."
       },
       {
-        "date": "2025-01-17",
+        "date": "2025-01-15",
         "note": "Today morning, I attended the event organized by Nabila, member from training team, and Cathy, supervisor, about the walkthrough of training toolkits and functionality overview for new training tools. After that, I shared the production dashboard with Mutu, manager, and Fatira, Data scientist, with the users, and received some feedback and improving ways that we can implement into our dashboard."
       },
       {
-        "date": "2025-01-18",
+        "date": "2025-01-16", 
         "note": "Today, I attended an online event for new hires that focused on an ergonomic introduction, providing valuable insights into creating a comfortable and efficient workspace. The session detailed practical advice on adjusting seating, desk height, and monitor positioning to enhance posture and reduce strain, while also highlighting the importance of ergonomics for long-term health and productivity."
       },
       {
-        "date": "2025-01-19",
+        "date": "2025-01-17",
         "note": "Today, I attended DSU in the morning with the MA team for Repeat Ticket management project, and synced with Jocelyn, machine learning engineer who will be working together with me on the project."
       }
     ]
@@ -394,23 +394,23 @@
     "summary": "Week 16 - Final Project Assignments and Team Transitions",
     "dailyNotes": [
       {
-        "date": "2025-01-22",
+        "date": "2025-01-20",
         "note": "Today, I attend the DSU with MA team, and reported the progress for our project related to the repeat ticket management. After that, I had a meeting with the customer to discuss the production dashboard. We reviewed the current features, including user interface design and data visualization, while addressing the suggestions from the customer for enhancing the filtering options and quicker navigation. The conversation provided some valuable feedback that will help us to refine the dashboard to better meet user needs."
       },
       {
-        "date": "2025-01-23",
+        "date": "2025-01-21",
         "note": "Today, I attended the sprint planning session chaired by Jia Sheng, member from MA team, where the team reviewed the product backlog and prioritized tasks for the upcoming sprint. They discussed each item in detail, estimated the effort required, and identified potential challenges and dependencies."
       },
       {
-        "date": "2025-01-24",
+        "date": "2025-01-22",
         "note": "Today, I joined the DSU meeting with MA team, and reported the progress of the project, meanwhile I was waiting for the API key for embedding the whole dataset to VectorDB. After that, I was assigned to David's Team, one of the MFG teams in Kulim Intel, for reporting my activity and attending staff meetings for new announcements."
       },
       {
-        "date": "2025-01-25",
+        "date": "2025-01-23",
         "note": "Today morning, I attended the staff meeting with David, manager of the MFG, and Fatira, data scientist, for the first time. I introduced myself to the team members and listened to the activities from other team members. Also, David briefly went over the safety agenda and updates for each member. After that, I had a project sync with Jocelyn for the Repeat ticket management system, and we assigned different jobs we need to do before the next meeting."
       },
       {
-        "date": "2025-01-26",
+        "date": "2025-01-24",
         "note": "Today, I attended the DSU meeting with MA team for reporting the progress of the project, and in the 2nd half, I attended the meeting with David and Fatira for assigning new tasks for me to gain more experience."
       }
     ]
