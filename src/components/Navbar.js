@@ -16,7 +16,9 @@ const Navbar = () => {
           <li><Link to="/personal" className="nav-link">Personal</Link></li> {/* Changed from Logbook */}
           {/* University content moved to Personal page */}
           <li><Link to="/labs" className="nav-link">Labs</Link></li>
+          <li><Link to="/protected-logbook" className="nav-link">Logbook</Link></li>
           <li><Link to="/contacts" className="nav-link">Contact</Link></li>
+          
           
           {/* Add /personal or /contact links here if desired as separate pages */}
         </ul>

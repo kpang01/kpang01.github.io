@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 // Import sub-page components
 import LogbookPage from './LogbookPage';
 import UniversityPage from './UniversityPage';
@@ -28,7 +29,7 @@ const PersonalPage = () => {
             <div className="internship-header">
               <div className="company-logo">
                 <img 
-                  src="/images/intel-logo.png" 
+                  src="/images/Intel.png" 
                   alt="Intel Logo" 
                   className="company-logo-image"
                 />
@@ -45,6 +46,30 @@ const PersonalPage = () => {
                 <div className="construction-icon">🚧</div>
                 <p>This section is currently being developed with more detailed information about my internship journey, including projects, achievements, and personal growth. Check back soon for updates!</p>
               </div>
+            </div>
+            
+            {/* Protected Logbook Link */}
+            <div className="protected-logbook-link" style={{ marginTop: '30px', textAlign: 'center' }}>
+              <Link to="/protected-logbook" style={{ 
+                display: 'inline-block',
+                padding: '12px 25px',
+                backgroundColor: '#1a237e',
+                color: 'white',
+                textDecoration: 'none',
+                borderRadius: '4px',
+                fontWeight: 'bold',
+                boxShadow: '0 2px 5px rgba(0,0,0,0.2)',
+                transition: 'all 0.3s ease'
+              }}>
+                Access Detailed Logbook (Password Protected)
+              </Link>
+              <p style={{ 
+                fontSize: '0.9rem', 
+                marginTop: '10px', 
+                color: '#757575' 
+              }}>
+                Requires authorization for detailed daily logbook with images
+              </p>
             </div>
           </div>
         </div>

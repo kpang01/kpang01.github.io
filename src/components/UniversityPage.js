@@ -108,21 +108,21 @@ const UniversityPage = () => {
           </div>
           <div className="gallery-item">
             <img 
-              src="/images/campus-lake.jpg" 
-              alt="Campus Lake View" 
+              src="/images/SOC.jpg" 
+              alt="Main Campus - SOC" 
               className="gallery-image"
             />
           </div>
           <div className="gallery-item">
             <img 
-              src="/images/student-center.jpg" 
+              src="/images/StudentCenter.jpg" 
               alt="Student Center" 
               className="gallery-image"
             />
           </div>
           <div className="gallery-item">
             <img 
-              src="/images/sports-complex.jpg" 
+              src="/images/SportCentre.jpg" 
               alt="Sports Complex" 
               className="gallery-image"
             />

@@ -2,6 +2,7 @@
   {
     "week": 1,
     "summary": "Week 1 - Onboarding Week With Intel",
+    "hasImage": true,
     "dailyNotes": [
       {
         "date": "2024-10-07",
@@ -28,6 +29,7 @@
   {
     "week": 2,
     "summary": "Week 2 - Learning About Intel's Market Position",
+    "hasImage": true,
     "dailyNotes": [
       {
         "date": "2024-10-14",
@@ -54,6 +56,7 @@
   {
     "week": 3,
     "summary": "Week 3 - Working on Power BI Dashboard and Project Planning",
+    "hasImage": true,
     "dailyNotes": [
       {
         "date": "2024-10-21",
@@ -80,6 +83,7 @@
   {
     "week": 4,
     "summary": "Week 4 - Learning Power BI and Preparing for MA Team Project",
+    "hasImage": true,
     "dailyNotes": [
       {
         "date": "2024-10-28",
@@ -106,6 +110,7 @@
   {
     "week": 5,
     "summary": "Week 5 - Starting Work on LLM Project and Repeat Ticket System",
+    "hasImage": true,
     "dailyNotes": [
       {
         "date": "2024-11-04",
@@ -132,6 +137,7 @@
   {
     "week": 6,
     "summary": "Week 6 - Working with AI Solution Team and Studying Repeat Ticket System",
+    "hasImage": true,
     "dailyNotes": [
       {
         "date": "2024-11-11",
@@ -158,6 +164,7 @@
   {
     "week": 7,
     "summary": "Week 7 - Learning Git Branches and Power BI Visualization",
+    "hasImage": true,
     "dailyNotes": [
       {
         "date": "2024-11-18",
@@ -184,6 +191,7 @@
   {
     "week": 8,
     "summary": "Week 8 - Knowledge Sharing Sessions and Dashboard Development",
+    "hasImage": true,
     "dailyNotes": [
       {
         "date": "2024-11-25",
