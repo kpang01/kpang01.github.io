@@ -6,7 +6,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import MainPage from './components/MainPage'; // Home page (Hero + Sections)
 import PersonalPage from './components/PersonalPage'; // New Personal page (Logbook, Internship, Uni)
-import ContactsPage from './components/ContactPage';
+import ContactPage from './components/ContactPage';
 import LabsPage from './components/LabPage';
 // Remove imports for components not used as distinct pages or now part of PersonalPage
 // import About from './components/About';
@@ -34,7 +34,7 @@ function App() {
           <Route path="/" element={<MainPage />} />
           {/* Updated page routes */}
           <Route path="/personal" element={<PersonalPage />} /> {/* Changed from /logbook */}
-          <Route path="/contacts" element={<ContactsPage />} />
+          <Route path="/contacts" element={<ContactPage />} />
           <Route path="/labs" element={<LabsPage />} />
           {/* Removed /university route */}
           {/* Add other distinct page routes here if needed */}
