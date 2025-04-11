@@ -16,10 +16,11 @@ const About = () => {
 
             <h3>Education</h3>
             <div className="education-item">
-              <h4>Bachelor of Science (Honors) in Information Technology</h4>
-              <p className="institution">University Utara Malaysia (2021 - Present)</p>
-              <p className="details">CGPA: 3.82</p>
-              <p className="details">Dean’s List (5 Semesters)</p>
+              <h4>Bachelor of Science (Honors) in Information Technology (Data Science)</h4>
+              <p className="institution">Universiti Utara Malaysia (2021 - 2025)</p>
+              <p className="details">CGPA: 3.82/4.00</p>
+              <p className="details">Dean's List (6 Consecutive Semesters)</p>
+              <p className="details">Expected Graduation: May 2025</p>
             </div>
 
             {/* Removed image placeholder and details grid */}

@@ -4,37 +4,39 @@ import '../styles/Skills.css'; // Ensure CSS is imported
 const Skills = () => {
   // Skills from user's resume
   const technicalSkills = [
-    { name: 'JavaScript', level: 85 }, // Assign arbitrary levels for now
-    { name: 'Java', level: 80 },
-    { name: 'Python', level: 90 },
-    { name: 'React', level: 85 },
-    { name: 'Node.js', level: 75 },
-    { name: 'HTML/CSS', level: 90 },
-    { name: 'SQL (MySQL, PostgreSQL)', level: 70 },
-    { name: 'TensorFlow/Keras/PyTorch', level: 80 },
+    { name: 'JavaScript', level: 70 },
+    { name: 'Python', level: 85 },
+    { name: 'React', level: 70 },
+    { name: 'Java', level: 75 },
+    { name: 'Node.js', level: 60 },
+    { name: 'HTML/CSS', level: 80 },
+    { name: 'SQL (MySQL, PostgreSQL)', level: 80 },
     { name: 'AWS/Azure/GCP', level: 75 },
     { name: 'Docker/Kubernetes', level: 70 },
-    { name: 'Flask API', level: 70 },
-    { name: 'Spring Framework', level: 65 },
-    { name: 'Angular', level: 60 },
-    { name: 'C', level: 60 },
-    { name: 'Visual Basic', level: 50 },
+    { name: 'Flask/FastAPI', level: 60 },
+    { name: 'Flutter', level: 75 },
+    { name: 'Git/GitHub', level: 85 },
   ];
 
   const dataSkills = [
-    { name: 'LLMs', level: 80 },
-    { name: 'Scikit-learn', level: 85 },
-    { name: 'Pandas/NumPy', level: 85 },
-    { name: 'Power BI/Tableau', level: 75 },
+    { name: 'Large Language Models', level: 85 },
+    { name: 'TensorFlow/PyTorch', level: 80 },
+    { name: 'Scikit-learn', level: 70 },
+    { name: 'Pandas/NumPy', level: 80 },
+    { name: 'Hugging Face', level: 70 },
+    { name: 'Power BI/Tableau', level: 70 },
+    { name: 'NLTK/spaCy', level: 70 },
+    { name: 'Azure', level: 70 },
+    { name: 'Vector Databases', level: 75 },
   ];
 
   const softSkills = [
-    'Teamwork',
     'Problem-Solving',
     'Analytical Thinking',
-    'Agile Development',
-    'Public Speaking',
-    'Communication', // Added from summary
+    'Agile Methodology',
+    'Cross-functional Collaboration',
+    'Technical Documentation',
+    'Multilingual (English, Chinese, Malay)'
   ];
 
   return (
