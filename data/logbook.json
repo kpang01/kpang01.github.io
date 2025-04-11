@@ -414,5 +414,279 @@
         "note": "Today, I attended the DSU meeting with MA team for reporting the progress of the project, and in the 2nd half, I attended the meeting with David and Fatira for assigning new tasks for me to gain more experience."
       }
     ]
+  },
+  {
+    "week": 17,
+    "summary": "Week 17 - API Key Approval and Holiday Week",
+    "dailyNotes": [
+      {
+        "date": "2025-01-27",
+        "note": "Today, I attended the DSU meeting with the MA team for daily tasks and progress for the repeat ticket project. Currently, I am still waiting for the approvement of the API key. At the same time, I was finding and analysis the way to use the token of the embedding."
+      },
+      {
+        "date": "2025-01-28",
+        "note": "Floating Holiday"
+      },
+      {
+        "date": "2025-01-29",
+        "note": "Public Holiday"
+      },
+      {
+        "date": "2025-01-30",
+        "note": "Public Holiday"
+      },
+      {
+        "date": "2025-01-31",
+        "note": "Floating Holiday"
+      }
+    ]
+  },
+  {
+    "week": 18,
+    "summary": "Week 18 - Repeat Ticket Management System Development",
+    "dailyNotes": [
+      {
+        "date": "2025-02-03",
+        "note": "Today, I attended the DSU meeting with MA team for reporting the progress of the project and let the current job that I've doing for today. After that, I attended the meeting with Jing Zhi, senior ML engineer with Jocelyn for the pass down of the repeat ticket management system. Also, we found out the way to solve problem issues by Jing Zhi."
+      },
+      {
+        "date": "2025-02-04",
+        "note": "Today, I was studying the way to use embedding and API for OpenAI LLM model, and also for the triggering email flow for next task given by Fatira, data scientist MFG."
+      },
+      {
+        "date": "2025-02-05",
+        "note": "Today, I've attended company meeting with Michelle and Dave, co-CEOs for Intel with whole employee at different site. After that, I attended the DSU meeting and reported the current task and progress of the project. After 2nd half, I've a quick sync with MA team for usage of the API used to embedding and email triggering with Fatira and Rebecca, customer of the project."
+      },
+      {
+        "date": "2025-02-06",
+        "note": "Today morning, I attended a staff meeting with the David team, for current activities and issues facing the team members. After that, I was attending a meeting with MFG team for May Day discussion, one of the projects for planning. And lastly, I was sync with Jocelyn to discuss the progress and task completed for this week."
+      },
+      {
+        "date": "2025-02-07",
+        "note": "Today, I keep working on the repeat ticket management system task and studies about how it does for embedding part of the current project. After that, I've a DSU meeting with MA team for report the task completed and issue facing when using API."
+      }
+    ]
+  },
+  {
+    "week": 19,
+    "summary": "Week 19 - API Key Implementation and Company Updates",
+    "dailyNotes": [
+      {
+        "date": "2025-02-10",
+        "note": "Today, I've a sprint planning with MA team and discuss the prioritized task for the upcoming sprint. The repeat ticket management system project will need to be pushed and published at the end of this quarter."
+      },
+      {
+        "date": "2025-02-11",
+        "note": "Public Holiday"
+      },
+      {
+        "date": "2025-02-12",
+        "note": "Today, we've webcast with the Naga, and member of his staff for first quarter of the 2025, discuss about the current situation for Intel corporation."
+      },
+      {
+        "date": "2025-02-13",
+        "note": "Today morning, I've a meeting with Sajal, MA team who holding the API key, with team member for discussion of the usage of the API Key, like the way and problem may face in future. After that, I've meeting with MFG team with David and Fatira for daily report and issue solving."
+      },
+      {
+        "date": "2025-02-14",
+        "note": "Today morning, I've a DSU meeting with the MA team for report task completed and further task have to finish today."
+      }
+    ]
+  },
+  {
+    "week": 20,
+    "summary": "Week 20 - LLM Implementation and Dashboard Planning",
+    "dailyNotes": [
+      {
+        "date": "2025-02-17",
+        "note": "Today, I attended a DSU meeting with the MA team to report on a task completed and discuss the current progress with the team members. Then, I've sync up with Jocelyn for further task and result we got from the task has been done last week."
+      },
+      {
+        "date": "2025-02-18",
+        "note": "Today, I was working on the embedding part for the repeat ticket management using API and LLM from OpenAI and discussed with Jocelyn about the problem has facing when we sync up together."
+      },
+      {
+        "date": "2025-02-19",
+        "note": "Today, I've attended DSU meeting with MA team for report task completed and discuss the current progress with the team member. After that, I've sync up with Jocelyn for further task and result we get from the task has been done yesterday, and week 10 we will start internal testing for the repeat ticket results."
+      },
+      {
+        "date": "2025-02-20",
+        "note": "Today, I've staff meeting with David and Fatira team for weekly report and problem or issue facing by the members. After that, I sync up with Jocelyn and Jaya, machine learning engineer for MA team, to discuss the issue we face when developing the system with Jocelyn, like task scheduler and time taken to response the latest ticket. Lastly, I've set up a meeting with Raj for a real-time dashboard that will be used in production to evaluate the performance of the employee."
+      },
+      {
+        "date": "2025-02-21",
+        "note": "Today, I've DSU meeting with MA team for report task completed and progress of the project, which is repeat ticket system. Then, I've followed up with the dashboard project from Raj that help to replace manual effort to know daily production goal."
+      }
+    ]
+  },
+  {
+    "week": 21,
+    "summary": "Week 21 - API Optimization and Dashboard Development",
+    "dailyNotes": [
+      {
+        "date": "2025-02-24",
+        "note": "Today, I attended a DSU meeting with the MA team to report on a task completed and discuss the way to optimize usage of API to access Transformer model. In case, we have facing problem like different API endpoint for our project and discuss with the international user (China) for user testing."
+      },
+      {
+        "date": "2025-02-25",
+        "note": "Today, I was joining the sprint planning with MA team for ticket management validation plan, and update about the task progress for embedding part. Also, I met with my supervisor, TL Goh, to update my project progress and some problem with my dashboard using Power Bi."
+      },
+      {
+        "date": "2025-02-26",
+        "note": "Today, I was discussing with Fatira for the project dashboard using power bi and also the script and data required by the project request from the Raj. We are thinking about the reliability or possibility of the project and feasibility study whether proceed with the project or not."
+      },
+      {
+        "date": "2025-02-27",
+        "note": "Today, I've staff meeting with David and Fatira team for weekly report and having discussion with Fatira about the dashboard project. After that, Jocelyn and I have a quick call with jiang yan, engineer for ticket system, to check with her about the validation process and update."
+      },
+      {
+        "date": "2025-02-28",
+        "note": "Today, I've DSU meeting with MA team for report task completed and progress of the project, which is repeat ticket system. Then, I scheduled a meeting with Fatira for script configuration to the automation triggering email to the production purpose about the product unit. She helps a lot with explaining the work and how to use software tools from the Intel corporate that use to script the data."
+      }
+    ]
+  },
+  {
+    "week": 22,
+    "summary": "Week 22 - User Testing and SQL Training",
+    "dailyNotes": [
+      {
+        "date": "2025-03-03",
+        "note": "Today, I attended a DSU meeting with the MA team to report on a task completed and also the current progress of the project. The project was in the user testing, which the engineer required to provide some examples, and we will help to retrieval those issues from the user."
+      },
+      {
+        "date": "2025-03-04",
+        "note": "Today, I was discussing with Jocelyn, machine learning engineer for MA team about the problem we face when discuss with other engineer for the ticket system. And joining the briefing of validation to the US time zone site at midnight."
+      },
+      {
+        "date": "2025-03-05",
+        "note": "Today, I was joining a morning daily stand-up meeting with the MA team to discuss the repeated system algorithm."
+      },
+      {
+        "date": "2025-03-06",
+        "note": "Today, I've a training session about how to use SQL based software tool to script the related data from the SQL server automatedly without manually typing SQL or python script."
+      },
+      {
+        "date": "2025-03-07",
+        "note": "Today, I've DSU meeting with MA team for report task completed and progress of the project, which is repeat ticket system. After that, I joined a meeting with Jocelyn about the checkpoint discussion with other engineer for validation of the user query. At the end, I met with Hong Ling for the University alignment synch, and prepared for the presentation with the visitor, Dr Aida."
+      }
+    ]
+  },
+  {
+    "week": 23,
+    "summary": "Week 23 - AI Solutions Training and University Visit",
+    "dailyNotes": [
+      {
+        "date": "2025-03-10",
+        "note": "Today, I attended a sprint planning at the Penang Site for the first time, in purpose of joining the training session with Lead of ML engineer from MA team, Jonnathan for the AI agent explanation of usage in nowadays."
+      },
+      {
+        "date": "2025-03-11",
+        "note": "Today, I was continues attending the sharing session or discussion about the Latest AI solution with Jonnathan, and demo some of the examples with us."
+      },
+      {
+        "date": "2025-03-12",
+        "note": "Today morning, I was discussing with my supervisor for the presentation with the visitor after lunch break, for the data and secret confidential I need to follow and avoid top secret leaked to the third party. After that, the sharing session with my university visitor, Dr Aida was good, and everything was explained regarding the current project."
+      },
+      {
+        "date": "2025-03-13",
+        "note": "Today, Intel has announced the new CEO, Lip-Bu Tan and sharing session was on-going in the morning about the policy and strategic to make company success."
+      },
+      {
+        "date": "2025-03-14",
+        "note": "Today, I attended a DSU meeting with Ma team and staff meeting with David. After that, Jocelyn and I joined the meeting about the checkpoint and test briefing for the user testing of the project."
+      }
+    ]
+  },
+  {
+    "week": 24,
+    "summary": "Week 24 - Dashboard Problems and User Testing",
+    "dailyNotes": [
+      {
+        "date": "2025-03-17",
+        "note": "Today, I attended a DSU meeting with the MA team for reporting project progress. After that, I was discussing with Fatira for the dashboard project, but we face a lot of problems regarding the way to extract the data from the manufacturing system."
+      },
+      {
+        "date": "2025-03-18",
+        "note": "Today, I was writing some documentation of the code for repeat ticket system for the MA team for future correction and understand about the logic or workflow of the embedding and automation the updating latest ticket."
+      },
+      {
+        "date": "2025-03-19",
+        "note": "Today morning, I attended a DSU meeting with MA team for the project progress. After that, I've attended the user testing meeting with Jocelyn since it was the last week of the validation testing."
+      },
+      {
+        "date": "2025-03-20",
+        "note": "Today, me and Fatira was attending a meeting with PG engineer for transition of the Power Bi dashboard related to the production from Penang site to Kulim site. The data is required to be extracted from the production environment and pulled into Kulim."
+      },
+      {
+        "date": "2025-03-21",
+        "note": "Today, I attended a DSU meeting with Ma team and prepared the pass down for my last month in Intel."
+      }
+    ]
+  },
+  {
+    "week": 25,
+    "summary": "Week 25 - Project Handover and Deployment Planning",
+    "dailyNotes": [
+      {
+        "date": "2025-03-24",
+        "note": "Today, I attended the DSU meeting with MA team and quick alignment with manufacturing team for quarter closure. After that, I attended a meeting with Fatira and a new member, BC for a catch-up session about the current on-going project. At the end, I was attending a voting session for the transition of the algorithm for the new solution between engineers from worldwide site of Intel."
+      },
+      {
+        "date": "2025-03-25",
+        "note": "Today, I attended the Sprint Planning with MA team for the task executed and completed from the previous sprint and conclusion. After that, I was preparing the pass down document and instruction about the previous project to manufacturing team."
+      },
+      {
+        "date": "2025-03-26",
+        "note": "Today morning, I was attending my pass down session with Fatira for the previous project needed to be sustained by the Manufacturing team and the new member. After that, I attended the meeting hosted by Jocelyn for the deployment discussion about the new project pushing into production."
+      },
+      {
+        "date": "2025-03-27",
+        "note": "Today, I was attending staff meeting with Fatira and David team before Hari Raya, and I helping MA team for validate the new request ticket from the Vietnam site."
+      },
+      {
+        "date": "2025-03-28",
+        "note": "Today, I attended a DSU meeting with Ma team and attended farewell session with my college from previous team. And writing a report for my current project and the user testing."
+      }
+    ]
+  },
+  {
+    "week": 26,
+    "summary": "Week 26 - Holiday Week and Report Preparation",
+    "dailyNotes": [
+      {
+        "date": "2025-03-31",
+        "note": "Public Holiday – Hari Raya"
+      },
+      {
+        "date": "2025-04-01",
+        "note": "Public Holiday – Hari Raya"
+      },
+      {
+        "date": "2025-04-02",
+        "note": "Today, I was attending the DSU meeting with MA team and preparing my pass down and report as this will be my second week of the Internship."
+      },
+      {
+        "date": "2025-04-03",
+        "note": "Today, I collaborated with Jocelyn for the Q1 sharing next week about the project."
+      },
+      {
+        "date": "2025-04-04",
+        "note": "Today, I attended a DSU meeting with the Ma team and prepared my slide for Q1 and pass down for MA team."
+      }
+    ]
+  },
+  {
+    "week": 27,
+    "summary": "Week 27 - Final Week of Internship",
+    "dailyNotes": [
+      {
+        "date": "2025-04-07",
+        "note": "Today, I attended the meeting with MA team for DSU for updating progress of the internship project and having a Q1 sharing of the project, related to the presenting the current project experience and knowledge can be gained by the team members. Thanks again with the manufacturing team for making the farewell session before I am leaving Intel. After 2nd half, I was helping Jocelyn to troubleshoot the problem from the vector database regarding to the disappear of the data."
+      },
+      {
+        "date": "2025-04-08",
+        "note": "Today, I was joining the sprint planning with MA team and as the last meeting of the whole journey for my internship, sharing about the experience and thanks for giving the opportunities to make those interest project for boosting my experience."
+      }
+    ]
   }
 ]
