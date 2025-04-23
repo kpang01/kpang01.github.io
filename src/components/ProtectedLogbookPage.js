@@ -12,7 +12,7 @@ const ProtectedLogbookPage = () => {
   const [selectedWeek, setSelectedWeek] = useState(null);
 
   // The correct password - in a real app, this would be handled securely on a server
-  const correctPassword = 'intel2025'; // Change this to your desired password
+  const correctPassword = ''; // Change this to your desired password
 
   useEffect(() => {
     if (authenticated) {

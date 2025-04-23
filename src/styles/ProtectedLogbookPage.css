@@ -270,11 +270,14 @@
 }
 
 .week-image-preview {
-  max-width: 100%;
-  max-height: 300px;
+  width: 100%; /* Fill container width */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 100%; /* Ensure it doesn't overflow container */
+  object-fit: contain; /* Scale image down to fit, preserving aspect ratio */
   border-radius: 4px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
   border: 1px solid rgba(100, 255, 218, 0.2);
+  display: block; /* Ensure it behaves as a block element */
 }
 
 /* Daily notes grid */
@@ -380,4 +383,4 @@
     align-items: flex-start;
     gap: 5px;
   }
-} 
+}
