@@ -9,6 +9,8 @@ import PersonalPage from './components/PersonalPage'; // New Personal page (Logb
 import ContactPage from './components/ContactPage';
 import LabsPage from './components/LabPage';
 import ProtectedLogbookPage from './components/ProtectedLogbookPage'; // Import the new protected logbook page
+import SERPage from './components/SERPage';
+
 // Remove imports for components not used as distinct pages or now part of PersonalPage
 // import About from './components/About';
 // import Skills from './components/Skills';
@@ -39,6 +41,7 @@ function App() {
           <Route path="/labs" element={<LabsPage />} />
           <Route path="/protected-logbook" element={<ProtectedLogbookPage />} /> {/* New protected logbook route */}
           {/* Removed /university route */}
+          <Route path="/ser" element={<SERPage />} />
           {/* Add other distinct page routes here if needed */}
         </Routes>
 

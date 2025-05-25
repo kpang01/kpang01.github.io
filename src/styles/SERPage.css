@@ -1,0 +1,159 @@
+/* Main container */
+.min-h-screen.bg-white { /* Overriding Tailwind-like class for the dark theme */
+  padding-top: 100px; /* Increased top padding */
+  padding-bottom: 60px; /* Added bottom padding */
+  background-color: #0d1117; /* Dark background like GitHub's dark mode */
+  color: #adbac7; /* Default light gray text for the page */
+  font-family: 'Inter', sans-serif; /* Modern sans-serif font */
+  display: flex; /* Ensure flex is applied */
+  flex-direction: column; /* Ensure flex direction is column */
+  align-items: center; /* Center children horizontally */
+  justify-content: center; /* Center children vertically if content is less than screen height */
+}
+
+/* Heading styles for dark theme */
+/* Main page title (h1 in hero) & Section titles (h2) */
+.text-gray-800 { 
+  color: #e6edf3; /* Brighter white for important headings */
+}
+/* Subtitles in hero, paragraph text in sections, general descriptive text */
+.text-gray-600 { 
+  color: #8b949e; /* Medium-light gray for readability */
+}
+/* Titles within cards (h2), tech stack item names (p) */
+.text-gray-700 { 
+  color: #c9d1d9; /* Lighter gray for less emphasis than main headings */
+}
+/* Specific highlighted text like in hero title */
+.text-teal-400 {
+  color: #39d3bb; 
+}
+/* Subtitle/Tagline above main title in hero */
+.text-blue-400 {
+  color: #58a6ff;
+}
+
+
+/* Card styles for dark theme */
+.shadow-xl.rounded-2xl { /* Targeting the Card component's classes */
+  background-color: #161b22; /* Darker card background */
+  border: 1px solid #30363d; /* Subtle border for cards */
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* Adjusted shadow */
+}
+
+/* Icon colors for dark theme */
+.text-blue-600 { /* For Smartphone icon */
+  color: #58a6ff; /* Brighter blue */
+}
+.text-green-600 { /* For PlayCircle icon */
+  color: #3fb950; /* Brighter green */
+}
+.text-red-600 { /* For Speaker icon */
+  color: #f85149; /* Brighter red */
+}
+
+/* Button styles for dark theme */
+.bg-blue-600.hover\:bg-blue-700 { /* Targeting the Button component's classes */
+  background-color: #238636; /* Green button like GitHub */
+  color: #ffffff;
+  border: 1px solid #2ea043;
+}
+.bg-blue-600.hover\:bg-blue-700:hover {
+  background-color: #2ea043;
+  border-color: #3fb950;
+}
+
+/* Technology Stack Section Image styles */
+.mt-12.pt-8.border-t.border-gray-200 .grid div img {
+  height: 3rem; /* 48px, smaller icons */
+  margin-bottom: 0.25rem;
+  filter: invert(0.8); /* Invert colors for light SVGs on dark background, adjust as needed */
+}
+.border-gray-200 { /* Make border darker for dark theme */
+    border-color: #30363d;
+}
+
+
+/* Structural and utility classes (mostly from previous attempt, ensure they don't conflict) */
+.grid { display: grid; }
+.grid-cols-1 { grid-template-columns: repeat(1, minmax(0, 1fr)); }
+@media (min-width: 768px) {
+  .md\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .md\:grid-cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); } /* For tech stack */
+  .md\:p-12 { padding: 3rem; }
+}
+.gap-6 { gap: 1.5rem; }
+.gap-8 { gap: 2rem; } /* For tech stack */
+.p-6 { padding: 1.5rem; }
+.mb-4 { margin-bottom: 1rem; }
+.mb-8 { margin-bottom: 2rem; }
+.mb-2 { margin-bottom: 0.5rem; }
+.mb-6 { margin-bottom: 1.5rem; } /* For tech stack title */
+.mt-10 { margin-top: 2.5rem; }
+.mt-12 { margin-top: 3rem; } /* For tech stack & demo video section */
+.pt-8 { padding-top: 2rem; } /* For tech stack & demo video section */
+
+.text-center { text-align: center; }
+.font-bold { font-weight: 700; }
+.font-semibold { font-weight: 600; }
+.text-4xl { font-size: 2.25rem; line-height: 2.5rem; }
+.text-3xl { font-size: 1.875rem; line-height: 2.25rem; } /* For section titles like Tech Stack */
+.text-lg { font-size: 1.125rem; line-height: 1.75rem; }
+.text-xl { font-size: 1.25rem; line-height: 1.75rem; }
+.text-sm { font-size: 0.875rem; line-height: 1.25rem; }
+.text-md { font-size: 1rem; line-height: 1.5rem; } /* For tech stack text */
+
+.w-10 { width: 2.5rem; }
+.h-10 { height: 2.5rem; }
+.h-16 { height: 4rem; } /* For tech stack images */
+
+.rounded-2xl { border-radius: 1rem; }
+.rounded-lg { border-radius: 0.5rem; } /* For video iframe */
+.rounded-xl { border-radius: 0.75rem; } /* For button */
+
+.shadow-xl {
+   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+.overflow-hidden { overflow: hidden; } /* For video iframe container */
+.aspect-w-16 { position: relative; padding-bottom: 56.25%; } /* 16:9 Aspect Ratio */
+.aspect-h-9 > * { position: absolute; height: 100%; width: 100%; top: 0; right: 0; bottom: 0; left: 0; }
+
+
+.mx-auto { margin-left: auto; margin-right: auto; }
+.max-w-4xl { max-width: 56rem; }
+.min-h-screen { min-height: 100vh; }
+
+.text-white { color: #ffffff !important; }
+.px-6 { padding-left: 1.5rem; padding-right: 1.5rem; }
+.py-2 { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+
+
+.lucide { display: inline-block; vertical-align: middle; }
+
+/* Accordion specific text colors if needed */
+.text-teal-400 { /* Already used for accordion title, ensure it's bright */
+  color: #39d3bb !important; 
+}
+.bg-gray-700 { /* Accordion button background */
+  background-color: #1c2128 !important;
+}
+.hover\:bg-gray-600:hover { /* Accordion button hover background */
+  background-color: #22272e !important;
+}
+.bg-gray-800 { /* Accordion content background */
+  background-color: #161b22 !important;
+}
+.text-gray-300 { /* Accordion content text */
+  color: #adbac7 !important;
+}
+.border-gray-700 { /* Accordion item border */
+  border-color: #30363d !important;
+}
+.border-gray-600 { /* Accordion content top border */
+   border-color: #30363d !important;
+}
+
+/* Ensure text-sm in accordion content is readable */
+.text-sm {
+    color: #adbac7; /* Match accordion content text or make slightly lighter/darker if needed */
+}

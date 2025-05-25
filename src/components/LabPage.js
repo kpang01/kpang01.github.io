@@ -46,12 +46,12 @@ const LabPage = () => {
       id: 3,
       title: "Speech Emotion Recognition System",
       category: "ai",
-      image: "/images/speech-emotion.jpg", 
+      image: "/images/Main.png", 
       description: "Created a mobile application that recognizes emotions from speech using CNN models, achieving 91% accuracy in real-world testing.",
       skills: ["Flutter", "Python", "TensorFlow", "Audio Processing"],
-      link: "#",
+      link: "#/ser",
       featured: true,
-      github: "https://github.com/yourusername/speech-emotion"
+      github: "https://github.com/kpang01/Emotion-Recognition-Algorithm/tree/master"
     },
     {
       id: 4,
@@ -272,4 +272,4 @@ const LabPage = () => {
   );
 };
 
-export default LabPage; 
+export default LabPage;
