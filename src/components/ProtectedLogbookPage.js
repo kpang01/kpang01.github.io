@@ -111,6 +111,7 @@ const ProtectedLogbookPage = () => {
     <div className="protected-logbook-page" style={{ paddingTop: '100px' }}>
       <h1>Internship Logbook</h1>
       <h2>Secured Note & Images</h2>
+      <p>Pang Khong Jun 286405</p>
       
       <div className="timeline-container">
         {logbookData.map((entry) => (

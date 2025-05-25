@@ -218,6 +218,7 @@
   {
     "week": 9,
     "summary": "Week 9 - Dashboard Development and Visualization Techniques",
+    "hasImage": true,
     "dailyNotes": [
       {
         "date": "2024-12-02",
@@ -244,6 +245,7 @@
   {
     "week": 10,
     "summary": "Week 10 - MA Team Project Insights and Production Dashboard",
+    "hasImage": true,
     "dailyNotes": [
       {
         "date": "2024-12-09",
@@ -270,6 +272,7 @@
   {
     "week": 11,
     "summary": "Week 11 - Joining Data Science Team and Repeat Ticket Project",
+    "hasImage": true,
     "dailyNotes": [
       {
         "date": "2024-12-16",
@@ -296,6 +299,7 @@
   {
     "week": 12,
     "summary": "Week 12 - Production Dashboard Development",
+    "hasImage": true,
     "dailyNotes": [
       {
         "date": "2024-12-23",
@@ -322,6 +326,7 @@
   {
     "week": 13,
     "summary": "Week 13 - Dashboard Demo and User Feedback",
+    "hasImage": true,
     "dailyNotes": [
       {
         "date": "2024-12-30",
@@ -348,6 +353,7 @@
   {
     "week": 14,
     "summary": "Week 14 - Project Handover and Dashboard Updates",
+    "hasImage": true,
     "dailyNotes": [
       {
         "date": "2025-01-06",
@@ -374,6 +380,7 @@
   {
     "week": 15,
     "summary": "Week 15 - Dashboard Implementation and Training Events",
+    "hasImage": true,
     "dailyNotes": [
       {
         "date": "2025-01-13",
@@ -400,6 +407,7 @@
   {
     "week": 16,
     "summary": "Week 16 - Final Project Assignments and Team Transitions",
+    "hasImage": true,
     "dailyNotes": [
       {
         "date": "2025-01-20",
@@ -426,6 +434,7 @@
   {
     "week": 17,
     "summary": "Week 17 - API Key Approval and Holiday Week",
+    "hasImage": true,
     "dailyNotes": [
       {
         "date": "2025-01-27",
@@ -452,6 +461,7 @@
   {
     "week": 18,
     "summary": "Week 18 - Repeat Ticket Management System Development",
+    "hasImage": true,
     "dailyNotes": [
       {
         "date": "2025-02-03",
@@ -478,6 +488,7 @@
   {
     "week": 19,
     "summary": "Week 19 - API Key Implementation and Company Updates",
+    "hasImage": true,
     "dailyNotes": [
       {
         "date": "2025-02-10",
@@ -504,6 +515,7 @@
   {
     "week": 20,
     "summary": "Week 20 - LLM Implementation and Dashboard Planning",
+    "hasImage": true,
     "dailyNotes": [
       {
         "date": "2025-02-17",
@@ -530,6 +542,7 @@
   {
     "week": 21,
     "summary": "Week 21 - API Optimization and Dashboard Development",
+    "hasImage": true,
     "dailyNotes": [
       {
         "date": "2025-02-24",
@@ -556,6 +569,7 @@
   {
     "week": 22,
     "summary": "Week 22 - User Testing and SQL Training",
+    "hasImage": true,
     "dailyNotes": [
       {
         "date": "2025-03-03",
@@ -582,6 +596,7 @@
   {
     "week": 23,
     "summary": "Week 23 - AI Solutions Training and University Visit",
+    "hasImage": true,
     "dailyNotes": [
       {
         "date": "2025-03-10",
@@ -608,6 +623,7 @@
   {
     "week": 24,
     "summary": "Week 24 - Dashboard Problems and User Testing",
+    "hasImage": true,
     "dailyNotes": [
       {
         "date": "2025-03-17",
@@ -634,6 +650,7 @@
   {
     "week": 25,
     "summary": "Week 25 - Project Handover and Deployment Planning",
+    "hasImage": true,
     "dailyNotes": [
       {
         "date": "2025-03-24",
@@ -660,6 +677,7 @@
   {
     "week": 26,
     "summary": "Week 26 - Holiday Week and Report Preparation",
+    "hasImage": true,
     "dailyNotes": [
       {
         "date": "2025-03-31",
@@ -686,6 +704,7 @@
   {
     "week": 27,
     "summary": "Week 27 - Final Week of Internship",
+    "hasImage": true,
     "dailyNotes": [
       {
         "date": "2025-04-07",
