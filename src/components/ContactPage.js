@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../styles/ContactPage.css';
 
-const ContactPage = () => {
+function ContactPage(){
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -22,20 +22,34 @@ const ContactPage = () => {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    setFormStatus({ submitting: true, submitted: false, error: null });
+    setFormStatus({ submitting: true, submitted: false, error: false });
     
-    // Simulate form submission - replace with actual submission logic
-    setTimeout(() => {
-      setFormStatus({ submitting: false, submitted: true, error: null });
-      setFormData({ name: '', email: '', subject: '', message: '' });
+    try{
+      const response = await fetch('https://messageapi-bifx.onrender.com/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(formData),
+      });
       
-      // Reset success message after 5 seconds
-      setTimeout(() => {
-        setFormStatus({ submitting: false, submitted: false, error: null });
-      }, 5000);
-    }, 1500);
+      if (response.ok) {
+        const result = await response.json();
+        console.log('Form submitted successfully:', result);
+        setFormStatus({ submitting: false, submitted: true, error: false});
+        // clean form after successful submission
+        setFormData({ name: '', email: '', subject: '', message: '' });
+      } else {
+        const errorData = await response.json();
+        console.error('Error submitting form:', errorData);
+        setFormStatus({ submitting: false, submitted: false, error: true });
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      setFormStatus({ submitting: false, submitted: false, error: true });
+    }
   };
 
   return (
@@ -86,8 +100,8 @@ const ContactPage = () => {
               <a href="https://linkedin.com/in/pang-khong-jun-87849330a" target="_blank" rel="noopener noreferrer" className="social-link">
                 <div className="social-icon">LinkedIn</div>
               </a>
-              <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" className="social-link">
-                <div className="social-icon">Twitter</div>
+              <a href="https://discord.com/users/833959241718038530" target="_blank" rel="noopener noreferrer" className="social-link">
+                <div className="social-icon">Discord</div>
               </a>
             </div>
             
@@ -99,7 +113,7 @@ const ContactPage = () => {
               <p>Feel free to download my resume to learn more about my qualifications, experience, and skills.</p>
               <div className="resume-button-container">
                 <a 
-                  href="/images/dewan.jpeg" 
+                  href="images/Pang Resume - Python Developer.pdf" 
                   className="resume-button" 
                   target="_blank" 
                   rel="noopener noreferrer"
